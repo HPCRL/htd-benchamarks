@@ -1,2 +1,2 @@
-# htd-benchamarks
-All Benchmarks in single place which are ran using HPTD.
+# htd-benchmarks
+All benchmarks in a single place which are ran using HPTD.
