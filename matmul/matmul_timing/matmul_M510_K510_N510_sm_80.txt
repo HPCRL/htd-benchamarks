@@ -1,0 +1,1 @@
+Execution time of this operator: 48.38 usecond

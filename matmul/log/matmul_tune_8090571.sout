@@ -1,0 +1,295 @@
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Generate Sketches		#s: 1
+Sample Initial Population	#s: 120	fail_ct: 1928	Time elapsed: 4.33
+GA Iter: 0	Max score: 0.9917	Min score: 0.0049	#Pop: 120	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0000	Min score: 0.9814	#Pop: 128	#M+: 1389	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 35.04
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Done ]
+----------------------------------------------------------------------
+arc=sm_80
+Computational DAG:
+A = PLACEHOLDER [1024, 1024]
+B = PLACEHOLDER [1024, 1024]
+matmul(i, j) += (A[i, k]*B[k, j])
+C = PLACEHOLDER [1024, 1024]
+out(i, j) = (matmul[i, j] + C[i, j])
+
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(A: T.Buffer((1024, 1024), "float32"), B: T.Buffer((1024, 1024), "float32"), C: T.Buffer((1024, 1024), "float32"), out: T.Buffer((1024, 1024), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        blockIdx_x = T.launch_thread("blockIdx.x", 4096)
+        matmul = T.allocate([4], "float32", "local")
+        A_shared = T.allocate([1024], "float32", "shared")
+        B_shared = T.allocate([64], "float32", "shared")
+        threadIdx_x = T.launch_thread("threadIdx.x", 64)
+        matmul_1 = T.Buffer((4,), data=matmul, scope="local", align=8)
+        matmul_1[0] = T.float32(0)
+        matmul_1[2] = T.float32(0)
+        matmul_1[1] = T.float32(0)
+        matmul_1[3] = T.float32(0)
+        for k_outer_outer in range(64):
+            threadIdx_x_1 = T.env_thread("threadIdx.x")
+            A_shared_1 = T.Buffer((1024,), data=A_shared, scope="shared")
+            A_1 = T.Buffer((1048576,), data=A.data)
+            with T.launch_thread(threadIdx_x_1, 64):
+                A_shared_1[threadIdx_x_1 * 2:threadIdx_x_1 * 2 + 2] = A_1[blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2:blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 2]
+            with T.launch_thread(threadIdx_x_1, 64):
+                A_shared_1[threadIdx_x_1 * 2 + 128:threadIdx_x_1 * 2 + 128 + 2] = A_1[blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 8192:blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 8192 + 2]
+            with T.launch_thread(threadIdx_x_1, 64):
+                A_shared_1[threadIdx_x_1 * 2 + 256:threadIdx_x_1 * 2 + 256 + 2] = A_1[blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 16384:blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 16384 + 2]
+            with T.launch_thread(threadIdx_x_1, 64):
+                A_shared_1[threadIdx_x_1 * 2 + 384:threadIdx_x_1 * 2 + 384 + 2] = A_1[blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 24576:blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 24576 + 2]
+            with T.launch_thread(threadIdx_x_1, 64):
+                A_shared_1[threadIdx_x_1 * 2 + 512:threadIdx_x_1 * 2 + 512 + 2] = A_1[blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 32768:blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 32768 + 2]
+            with T.launch_thread(threadIdx_x_1, 64):
+                A_shared_1[threadIdx_x_1 * 2 + 640:threadIdx_x_1 * 2 + 640 + 2] = A_1[blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 40960:blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 40960 + 2]
+            with T.launch_thread(threadIdx_x_1, 64):
+                A_shared_1[threadIdx_x_1 * 2 + 768:threadIdx_x_1 * 2 + 768 + 2] = A_1[blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 49152:blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 49152 + 2]
+            with T.launch_thread(threadIdx_x_1, 64):
+                A_shared_1[threadIdx_x_1 * 2 + 896:threadIdx_x_1 * 2 + 896 + 2] = A_1[blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 57344:blockIdx_x // 256 * 65536 + threadIdx_x_1 // 8 * 1024 + k_outer_outer * 16 + threadIdx_x_1 % 8 * 2 + 57344 + 2]
+            B_shared_1 = T.Buffer((64,), data=B_shared, scope="shared")
+            with T.launch_thread("threadIdx.x", 64) as threadIdx_x_2:
+                B_1 = T.Buffer((1048576,), data=B.data)
+                B_shared_1[threadIdx_x_2] = B_1[k_outer_outer * 16384 + threadIdx_x_2 // 4 * 1024 + blockIdx_x % 256 * 4 + threadIdx_x_2 % 4]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16] * B_shared_1[0]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16] * B_shared_1[2]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16] * B_shared_1[1]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16] * B_shared_1[3]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 1] * B_shared_1[4]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 1] * B_shared_1[6]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 1] * B_shared_1[5]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 1] * B_shared_1[7]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 2] * B_shared_1[8]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 2] * B_shared_1[10]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 2] * B_shared_1[9]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 2] * B_shared_1[11]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 3] * B_shared_1[12]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 3] * B_shared_1[14]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 3] * B_shared_1[13]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 3] * B_shared_1[15]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 4] * B_shared_1[16]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 4] * B_shared_1[18]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 4] * B_shared_1[17]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 4] * B_shared_1[19]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 5] * B_shared_1[20]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 5] * B_shared_1[22]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 5] * B_shared_1[21]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 5] * B_shared_1[23]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 6] * B_shared_1[24]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 6] * B_shared_1[26]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 6] * B_shared_1[25]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 6] * B_shared_1[27]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 7] * B_shared_1[28]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 7] * B_shared_1[30]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 7] * B_shared_1[29]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 7] * B_shared_1[31]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 8] * B_shared_1[32]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 8] * B_shared_1[34]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 8] * B_shared_1[33]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 8] * B_shared_1[35]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 9] * B_shared_1[36]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 9] * B_shared_1[38]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 9] * B_shared_1[37]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 9] * B_shared_1[39]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 10] * B_shared_1[40]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 10] * B_shared_1[42]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 10] * B_shared_1[41]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 10] * B_shared_1[43]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 11] * B_shared_1[44]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 11] * B_shared_1[46]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 11] * B_shared_1[45]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 11] * B_shared_1[47]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 12] * B_shared_1[48]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 12] * B_shared_1[50]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 12] * B_shared_1[49]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 12] * B_shared_1[51]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 13] * B_shared_1[52]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 13] * B_shared_1[54]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 13] * B_shared_1[53]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 13] * B_shared_1[55]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 14] * B_shared_1[56]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 14] * B_shared_1[58]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 14] * B_shared_1[57]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 14] * B_shared_1[59]
+            matmul_1[0] = matmul_1[0] + A_shared_1[threadIdx_x * 16 + 15] * B_shared_1[60]
+            matmul_1[2] = matmul_1[2] + A_shared_1[threadIdx_x * 16 + 15] * B_shared_1[62]
+            matmul_1[1] = matmul_1[1] + A_shared_1[threadIdx_x * 16 + 15] * B_shared_1[61]
+            matmul_1[3] = matmul_1[3] + A_shared_1[threadIdx_x * 16 + 15] * B_shared_1[63]
+        for j_inner in range(2):
+            out_1 = T.Buffer((1048576,), data=out.data)
+            C_1 = T.Buffer((1048576,), data=C.data)
+            out_1[blockIdx_x // 256 * 65536 + threadIdx_x * 1024 + blockIdx_x % 256 * 4 + j_inner] = matmul_1[j_inner] + C_1[blockIdx_x // 256 * 65536 + threadIdx_x * 1024 + blockIdx_x % 256 * 4 + j_inner]
+            out_1[blockIdx_x // 256 * 65536 + threadIdx_x * 1024 + blockIdx_x % 256 * 4 + j_inner + 2] = matmul_1[j_inner + 2] + C_1[blockIdx_x // 256 * 65536 + threadIdx_x * 1024 + blockIdx_x % 256 * 4 + j_inner + 2]
+Equivalent python schedule:
+matmul_i, matmul_j, matmul_k = tuple(matmul.op.axis) + tuple(matmul.op.reduce_axis)
+out_i, out_j = tuple(out.op.axis) + tuple(out.op.reduce_axis)
+matmul_i_o_i, matmul_i_i = s[matmul].split(matmul_i, factor=1)
+matmul_i_o_o_i, matmul_i_o_i = s[matmul].split(matmul_i_o_i, factor=1)
+matmul_i_o_o_o_i, matmul_i_o_o_i = s[matmul].split(matmul_i_o_o_i, factor=64)
+matmul_i_o_o_o_o, matmul_i_o_o_o_i = s[matmul].split(matmul_i_o_o_o_i, factor=1)
+matmul_j_o_i, matmul_j_i = s[matmul].split(matmul_j, factor=2)
+matmul_j_o_o_i, matmul_j_o_i = s[matmul].split(matmul_j_o_i, factor=1)
+matmul_j_o_o_o_i, matmul_j_o_o_i = s[matmul].split(matmul_j_o_o_i, factor=1)
+matmul_j_o_o_o_o, matmul_j_o_o_o_i = s[matmul].split(matmul_j_o_o_o_i, factor=2)
+matmul_k_o_i, matmul_k_i = s[matmul].split(matmul_k, factor=8)
+matmul_k_o_o, matmul_k_o_i = s[matmul].split(matmul_k_o_i, factor=2)
+s[matmul].reorder(matmul_i_o_o_o_o, matmul_j_o_o_o_o, matmul_i_o_o_o_i, matmul_j_o_o_o_i, matmul_i_o_o_i, matmul_j_o_o_i, matmul_k_o_o, matmul_k_o_i, matmul_i_o_i, matmul_j_o_i, matmul_k_i, matmul_i_i, matmul_j_i)
+out_i_o_i, out_i_i = s[out].split(out_i, factor=1)
+out_i_o_o_i, out_i_o_i = s[out].split(out_i_o_i, factor=64)
+out_i_o_o_o, out_i_o_o_i = s[out].split(out_i_o_o_i, factor=1)
+out_j_o_i, out_j_i = s[out].split(out_j, factor=2)
+out_j_o_o_i, out_j_o_i = s[out].split(out_j_o_i, factor=1)
+out_j_o_o_o, out_j_o_o_i = s[out].split(out_j_o_o_i, factor=2)
+s[out].reorder(out_i_o_o_o, out_j_o_o_o, out_i_o_o_i, out_j_o_o_i, out_i_o_i, out_j_o_i, out_i_i, out_j_i)
+s[matmul].compute_at(s[out], out_j_o_i)
+B_shared = s.cache_read(B, "shared", [matmul])
+B_shared_ax0, B_shared_ax1 = tuple(B_shared.op.axis)
+s[B_shared].compute_at(s[matmul], matmul_k_o_o)
+A_shared = s.cache_read(A, "shared", [matmul])
+A_shared_ax0, A_shared_ax1 = tuple(A_shared.op.axis)
+s[A_shared].compute_at(s[matmul], matmul_k_o_o)
+out_i_o_o_o_j_o_o_o_fused = s[out].fuse(out_i_o_o_o, out_j_o_o_o)
+s[out].bind(out_i_o_o_o_j_o_o_o_fused, te.thread_axis("blockIdx.x"))
+out_i_o_o_i_j_o_o_i_fused = s[out].fuse(out_i_o_o_i, out_j_o_o_i)
+s[out].bind(out_i_o_o_i_j_o_o_i_fused, te.thread_axis("vthread"))
+out_i_o_i_j_o_i_fused = s[out].fuse(out_i_o_i, out_j_o_i)
+s[out].bind(out_i_o_i_j_o_i_fused, te.thread_axis("threadIdx.x"))
+B_shared_ax0_ax1_fused = s[B_shared].fuse(B_shared_ax0, B_shared_ax1)
+B_shared_ax0_ax1_fused_o, B_shared_ax0_ax1_fused_i = s[B_shared].split(B_shared_ax0_ax1_fused, factor=1)
+s[B_shared].vectorize(B_shared_ax0_ax1_fused_i)
+B_shared_ax0_ax1_fused_o_o, B_shared_ax0_ax1_fused_o_i = s[B_shared].split(B_shared_ax0_ax1_fused_o, factor=64)
+s[B_shared].bind(B_shared_ax0_ax1_fused_o_i, te.thread_axis("threadIdx.x"))
+A_shared_ax0_ax1_fused = s[A_shared].fuse(A_shared_ax0, A_shared_ax1)
+A_shared_ax0_ax1_fused_o, A_shared_ax0_ax1_fused_i = s[A_shared].split(A_shared_ax0_ax1_fused, factor=2)
+s[A_shared].vectorize(A_shared_ax0_ax1_fused_i)
+A_shared_ax0_ax1_fused_o_o, A_shared_ax0_ax1_fused_o_i = s[A_shared].split(A_shared_ax0_ax1_fused_o, factor=64)
+s[A_shared].bind(A_shared_ax0_ax1_fused_o_i, te.thread_axis("threadIdx.x"))
+s[matmul].pragma(matmul_i_o_o_o_o, "auto_unroll_max_step", 1024)
+s[matmul].pragma(matmul_i_o_o_o_o, "unroll_explicit", True)
+
+Equivalent CUDA code:
+
+#if (((__CUDACC_VER_MAJOR__ == 11) && (__CUDACC_VER_MINOR__ >= 4)) || \
+     (__CUDACC_VER_MAJOR__ > 11))
+#define TVM_ENABLE_L2_PREFETCH 1
+#else
+#define TVM_ENABLE_L2_PREFETCH 0
+#endif
+
+#ifdef _WIN32
+  using uint = unsigned int;
+  using uchar = unsigned char;
+  using ushort = unsigned short;
+  using int64_t = long long;
+  using uint64_t = unsigned long long;
+#else
+  #define uint unsigned int
+  #define uchar unsigned char
+  #define ushort unsigned short
+  #define int64_t long long
+  #define uint64_t unsigned long long
+#endif
+extern "C" __global__ void __launch_bounds__(64) default_function_kernel(float* __restrict__ A, float* __restrict__ B, float* __restrict__ C, float* __restrict__ out) {
+  float matmul[4];
+  __shared__ float A_shared[1024];
+  __shared__ float B_shared[64];
+  matmul[0] = 0.000000e+00f;
+  matmul[2] = 0.000000e+00f;
+  matmul[1] = 0.000000e+00f;
+  matmul[3] = 0.000000e+00f;
+  for (int k_outer_outer = 0; k_outer_outer < 64; ++k_outer_outer) {
+    __syncthreads();
+    *(float2*)(A_shared + (((int)threadIdx.x) * 2)) = *(float2*)(A + (((((((int)blockIdx.x) >> 8) * 65536) + ((((int)threadIdx.x) >> 3) * 1024)) + (k_outer_outer * 16)) + ((((int)threadIdx.x) & 7) * 2)));
+    *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 128)) = *(float2*)(A + ((((((((int)blockIdx.x) >> 8) * 65536) + ((((int)threadIdx.x) >> 3) * 1024)) + (k_outer_outer * 16)) + ((((int)threadIdx.x) & 7) * 2)) + 8192));
+    *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 256)) = *(float2*)(A + ((((((((int)blockIdx.x) >> 8) * 65536) + ((((int)threadIdx.x) >> 3) * 1024)) + (k_outer_outer * 16)) + ((((int)threadIdx.x) & 7) * 2)) + 16384));
+    *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 384)) = *(float2*)(A + ((((((((int)blockIdx.x) >> 8) * 65536) + ((((int)threadIdx.x) >> 3) * 1024)) + (k_outer_outer * 16)) + ((((int)threadIdx.x) & 7) * 2)) + 24576));
+    *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 512)) = *(float2*)(A + ((((((((int)blockIdx.x) >> 8) * 65536) + ((((int)threadIdx.x) >> 3) * 1024)) + (k_outer_outer * 16)) + ((((int)threadIdx.x) & 7) * 2)) + 32768));
+    *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 640)) = *(float2*)(A + ((((((((int)blockIdx.x) >> 8) * 65536) + ((((int)threadIdx.x) >> 3) * 1024)) + (k_outer_outer * 16)) + ((((int)threadIdx.x) & 7) * 2)) + 40960));
+    *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 768)) = *(float2*)(A + ((((((((int)blockIdx.x) >> 8) * 65536) + ((((int)threadIdx.x) >> 3) * 1024)) + (k_outer_outer * 16)) + ((((int)threadIdx.x) & 7) * 2)) + 49152));
+    *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 896)) = *(float2*)(A + ((((((((int)blockIdx.x) >> 8) * 65536) + ((((int)threadIdx.x) >> 3) * 1024)) + (k_outer_outer * 16)) + ((((int)threadIdx.x) & 7) * 2)) + 57344));
+    B_shared[((int)threadIdx.x)] = B[((((k_outer_outer * 16384) + ((((int)threadIdx.x) >> 2) * 1024)) + ((((int)blockIdx.x) & 255) * 4)) + (((int)threadIdx.x) & 3))];
+    __syncthreads();
+    matmul[0] = (matmul[0] + (A_shared[(((int)threadIdx.x) * 16)] * B_shared[0]));
+    matmul[2] = (matmul[2] + (A_shared[(((int)threadIdx.x) * 16)] * B_shared[2]));
+    matmul[1] = (matmul[1] + (A_shared[(((int)threadIdx.x) * 16)] * B_shared[1]));
+    matmul[3] = (matmul[3] + (A_shared[(((int)threadIdx.x) * 16)] * B_shared[3]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 1)] * B_shared[4]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 1)] * B_shared[6]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 1)] * B_shared[5]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 1)] * B_shared[7]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 2)] * B_shared[8]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 2)] * B_shared[10]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 2)] * B_shared[9]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 2)] * B_shared[11]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 3)] * B_shared[12]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 3)] * B_shared[14]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 3)] * B_shared[13]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 3)] * B_shared[15]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 4)] * B_shared[16]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 4)] * B_shared[18]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 4)] * B_shared[17]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 4)] * B_shared[19]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 5)] * B_shared[20]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 5)] * B_shared[22]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 5)] * B_shared[21]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 5)] * B_shared[23]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 6)] * B_shared[24]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 6)] * B_shared[26]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 6)] * B_shared[25]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 6)] * B_shared[27]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 7)] * B_shared[28]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 7)] * B_shared[30]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 7)] * B_shared[29]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 7)] * B_shared[31]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 8)] * B_shared[32]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 8)] * B_shared[34]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 8)] * B_shared[33]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 8)] * B_shared[35]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 9)] * B_shared[36]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 9)] * B_shared[38]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 9)] * B_shared[37]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 9)] * B_shared[39]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 10)] * B_shared[40]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 10)] * B_shared[42]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 10)] * B_shared[41]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 10)] * B_shared[43]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 11)] * B_shared[44]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 11)] * B_shared[46]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 11)] * B_shared[45]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 11)] * B_shared[47]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 12)] * B_shared[48]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 12)] * B_shared[50]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 12)] * B_shared[49]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 12)] * B_shared[51]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 13)] * B_shared[52]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 13)] * B_shared[54]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 13)] * B_shared[53]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 13)] * B_shared[55]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 14)] * B_shared[56]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 14)] * B_shared[58]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 14)] * B_shared[57]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 14)] * B_shared[59]));
+    matmul[0] = (matmul[0] + (A_shared[((((int)threadIdx.x) * 16) + 15)] * B_shared[60]));
+    matmul[2] = (matmul[2] + (A_shared[((((int)threadIdx.x) * 16) + 15)] * B_shared[62]));
+    matmul[1] = (matmul[1] + (A_shared[((((int)threadIdx.x) * 16) + 15)] * B_shared[61]));
+    matmul[3] = (matmul[3] + (A_shared[((((int)threadIdx.x) * 16) + 15)] * B_shared[63]));
+  }
+  for (int j_inner = 0; j_inner < 2; ++j_inner) {
+    out[(((((((int)blockIdx.x) >> 8) * 65536) + (((int)threadIdx.x) * 1024)) + ((((int)blockIdx.x) & 255) * 4)) + j_inner)] = (matmul[j_inner] + C[(((((((int)blockIdx.x) >> 8) * 65536) + (((int)threadIdx.x) * 1024)) + ((((int)blockIdx.x) & 255) * 4)) + j_inner)]);
+    out[((((((((int)blockIdx.x) >> 8) * 65536) + (((int)threadIdx.x) * 1024)) + ((((int)blockIdx.x) & 255) * 4)) + j_inner) + 2)] = (matmul[(j_inner + 2)] + C[((((((((int)blockIdx.x) >> 8) * 65536) + (((int)threadIdx.x) * 1024)) + ((((int)blockIdx.x) & 255) * 4)) + j_inner) + 2)]);
+  }
+}
+
+
