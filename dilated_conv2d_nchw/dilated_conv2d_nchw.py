@@ -1,11 +1,11 @@
 import numpy as np
 import tvm
 from tvm import te, auto_scheduler, topi
-from tvm.topi.testing import dilated_conv2d_nchw_python
+from tvm.topi.testing import conv2d_nchw_python
 
 
 @auto_scheduler.register_workload
-def dilated_conv2d(N, H, W, CO, CI, KH, KW, stride, padding):
+def dilated_conv2d(N, H, W, CO, CI, KH, KW, stride, padding, dilation):
    # Create placeholders for the input and filter tensors
     input_tensor = te.placeholder((N, CI, H + 2 * padding, W + 2 * padding), name='input')
     filter_tensor = te.placeholder((CO, CI, KH, KW), name='filter')
@@ -16,7 +16,7 @@ def dilated_conv2d(N, H, W, CO, CI, KH, KW, stride, padding):
     output_tensor = te.placeholder((N, CO, OH, OW), name='output')
 
     # Define the computation of the Conv2D operation with accumulation, stride, and padding
-    output = topi.nn.dilated_conv2d_nchw(input_tensor, filter_tensor, stride=stride, padding='VALID', dilation=1)
+    output = topi.nn.conv2d_nchw(input_tensor, filter_tensor, stride=stride, padding='VALID', dilation=dilation)
     accumulated_output = te.compute(
        (N, CO, OH, OW),
     lambda n, co, oh, ow: output(n, co, oh, ow) + output_tensor(n, co, oh, ow),
@@ -30,7 +30,7 @@ def dilated_conv2d(N, H, W, CO, CI, KH, KW, stride, padding):
 def tune_problem(task):
     global log_file
     print(log_file)
-    tune_number = int(sys.argv[11])
+    tune_number = int(sys.argv[12])
     tune_option = auto_scheduler.TuningOptions(
         num_measure_trials=tune_number,
         measure_callbacks=[auto_scheduler.RecordToFile(log_file)],
@@ -45,7 +45,7 @@ def test_result(sch, args, target):
     data_np = np.random.uniform(size=(N, CI, H + 2 * padding, W + 2 * padding)).astype(np.float32)
     weight_np = np.random.uniform(size=(CO, CI, KH, KW)).astype(np.float32)
     output_np = np.random.uniform(size=(N, CO, OH, OW)).astype(np.float32)
-    conv_np = dilated_conv2d_nchw_python(data_np, weight_np, strides, padding='VALID')
+    conv_np = conv2d_nchw_python(data_np, weight_np, strides, padding='VALID', dilation)
     out_np = conv_np + output_np
 
     dev = tvm.cuda()
@@ -95,19 +95,20 @@ KH = int(sys.argv[7])
 KW = int(sys.argv[8])
 strides = int(sys.argv[9])
 padding = int(sys.argv[10])
+dilation = int(sys.argv[11])
 
 target = tvm.target.Target("cuda")
 print(f"arc={target.arch}")
 
-task = tvm.auto_scheduler.SearchTask( func=dilated_conv2d, args=(N, H, W, CO, CI, KH, KW, strides, padding), target=target)
+task = tvm.auto_scheduler.SearchTask( func=dilated_conv2d, args=(N, H, W, CO, CI, KH, KW, strides, padding, dilation), target=target)
 
 print("Computational DAG:")
 print(task.compute_dag)
 
-log_file = f"evaluate/dilated_conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.json"
-cuda_code = f"evaluate/dilated_conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.cu"
-schedule_code = f"evaluate/dilated_conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.py"
-eval_res = f"evaluate/dilated_conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.txt"
+log_file = f"evaluate/dilated_conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_dilation_{dilation}_{target.arch}.json"
+cuda_code = f"evaluate/dilated_conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_dilation_{dilation}_{target.arch}.cu"
+schedule_code = f"evaluate/dilated_conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_dilation_{dilation}_{target.arch}.py"
+eval_res = f"evaluate/dilated_conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_dilation_{dilation}_{target.arch}.txt"
 
 if exec_mode == "tune":
     tune_problem(task)
