@@ -85,10 +85,11 @@ task = tvm.auto_scheduler.SearchTask(func=matmul_add, args=(N, L, M, "float32"),
 print("Computational DAG:")
 print(task.compute_dag)
 
-log_file = f"../../evaluate/matmul/matmul_M{N}_K{L}_N{M}_{target.arch}.json"
-cuda_code = f"../../evaluate/matmul/matmul_M{N}_K{L}_N{M}_{target.arch}.cu"
-schedule_code = f"../../evaluate/matmul/matmul_M{N}_K{L}_N{M}_{target.arch}.py"
-eval_res = f"../../evaluate/matmul/matmul_M{N}_K{L}_N{M}_{target.arch}.txt"
+log_file = f"evaluate/matmul_M{N}_K{L}_N{M}_{target.arch}.json"
+cuda_code = f"evaluate/matmul_M{N}_K{L}_N{M}_{target.arch}.cu"
+schedule_code = f"evaluate/matmul_M{N}_K{L}_N{M}_{target.arch}.py"
+eval_res = f"evaluate/matmul_M{N}_K{L}_N{M}_{target.arch}.txt"
+
 
 if exec_mode == "tune":
     tune_problem(task)

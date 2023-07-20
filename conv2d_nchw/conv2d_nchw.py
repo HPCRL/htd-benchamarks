@@ -104,10 +104,10 @@ task = tvm.auto_scheduler.SearchTask( func=conv2d, args=(N, H, W, CO, CI, KH, KW
 print("Computational DAG:")
 print(task.compute_dag)
 
-log_file = f"../../evaluate/conv2d_nchw/conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.json"
-cuda_code = f"../../evaluate/conv2d_nchw/conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.cu"
-schedule_code = f"../../evaluate/conv2d_nchw/conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.py"
-eval_res = f"../../evaluate/conv2d_nchw/conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.txt"
+log_file = f"evaluate/conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.json"
+cuda_code = f"evaluate/conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.cu"
+schedule_code = f"evaluate/conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.py"
+eval_res = f"evaluate/conv2d_nchw_N{N}_H{H}_W{W}_CO{CO}_CI{CI}_KH{KH}_KW{KW}_strides_{strides}_padding_{padding}_{target.arch}.txt"
 
 if exec_mode == "tune":
     tune_problem(task)

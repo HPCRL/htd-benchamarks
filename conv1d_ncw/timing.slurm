@@ -8,4 +8,4 @@
 #SBATCH --gres=gpu:a100:1  # partition, abbreviated by -p
 
 module load cuda
-ncu --set full python3 ./conv1d_ncw.py timing $1 $2 $3 $4 $5 $6 $7 |  grep 'Duration' | awk '{print $3 " " $2}' | awk '{max = (max < $1) ? $1 : max} END {print "Execution time of this operator: " max " " $2}'z
+ncu --set full python3 ./conv1d_ncw.py timing $1 $2 $3 $4 $5 $6 $7 |  grep 'Duration' | awk '{print $3 " " $2}' | awk '{max = (max < $1) ? $1 : max} END {print "Execution time of this operator: " max " " $2}'z &> "evaluate/conv1d_ncw_N$1_W$2_CO$3_CI$4_KW$5_strides_$6_padding_$7_sm_80.txt"

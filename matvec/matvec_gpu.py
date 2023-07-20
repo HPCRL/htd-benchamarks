@@ -66,7 +66,6 @@ def resume_search(task, log_file):
     task.tune(tune_option, search_policy=search_policy)
 
 
-
 import os
 import sys
 os.environ["PATH"] = os.environ["PATH"]+":/usr/local/cuda/bin/"
@@ -83,10 +82,10 @@ task = tvm.auto_scheduler.SearchTask(func=matvec_add, args=(N, L, "float32"), ta
 print("Computational DAG:")
 print(task.compute_dag)
 
-log_file = f"../../evaluate/matvec/matvec_M{N}_K{L}_{target.arch}.json"
-cuda_code = f"../../evaluate/matvec/matvec_M{N}_K{L}_{target.arch}.cu"
-schedule_code = f"../../evaluate/matvec/matvec_M{N}_K{L}_{target.arch}.py"
-eval_res = f"../../evaluate/matvec/matvec_M{N}_K{L}_{target.arch}.txt"
+log_file = f"evaluate/matvec_M{N}_K{L}_{target.arch}.json"
+cuda_code = f"evaluate/matvec_M{N}_K{L}_{target.arch}.cu"
+schedule_code = f"evaluate/matvec_M{N}_K{L}_{target.arch}.py"
+eval_res = f"evaluate/matvec_M{N}_K{L}_{target.arch}.txt"
 
 if exec_mode == "tune":
     tune_problem(task)

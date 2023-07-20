@@ -7,5 +7,5 @@
 #SBATCH --partition=soc-gpu-np  # partition, abbreviated by -p
 #SBATCH --gres=gpu:a100:1  # partition, abbreviated by -p
 module load cuda
-ncu  python3 ./conv2d_nchw.py timing $1 $2 $3 $4 $5 $6 $7 $8 $9 ${10} |  grep 'Duration' | awk '{print $3 " " $2}' | awk '{max = (max < $1) ? $1 : max} END {print "Execution time of this operator: " max " " $2}'z
+ncu  python3 ./conv2d_nchw.py timing $1 $2 $3 $4 $5 $6 $7 $8 $9 ${10} |  grep 'Duration' | awk '{print $3 " " $2}' | awk '{max = (max < $1) ? $1 : max} END {print "Execution time of this operator: " max " " $2}'z &> "evaluate/conv2d_nchw_N$1_H$2_W$3_CO$4_CI$5_KH$6_KW$7_strides_$8_padding_$9_sm_80.txt"
 #python3 ./conv2d_nchw.py timing $1 $2 $3 $4 $5 $6 $7 $8 $9 ${10} 

@@ -10,4 +10,4 @@ echo "$1x$2"
 echo "$2x$3"
 echo "$1x$3"
 module load cuda
-ncu python3 ./matmul_gpu.py timing $1 $2 $3 | grep 'Duration' | awk '{print $3 " " $2}' | awk '{max = (max < $1) ? $1 : max} END {print "Execution time of this operator: " max " " $2}'z
+ncu python3 ./matmul_gpu.py timing $1 $2 $3 | grep 'Duration' | awk '{print $3 " " $2}' | awk '{max = (max < $1) ? $1 : max} END {print "Execution time of this operator: " max " " $2}'z &> "evaluate/matmul_M$1_K$2_N$3_sm_80.txt"
