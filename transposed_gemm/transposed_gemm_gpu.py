@@ -10,13 +10,13 @@ def transposed_gemm_add(N, L, M, dtype):
     C = te.placeholder((N, M), name="C", dtype=dtype)
 
     k = te.reduce_axis((0, L), name="k")
-    matmul = te.compute(
+    transposed_gemm = te.compute(
         (N, M),
         lambda i, j: te.sum(A[i, k] * B[j, k], axis=k),
         name="transposed_gemm",
         attrs={"layout_free_placeholders": [B]},  # enable automatic layout transform for tensor B
     )
-    out = te.compute((N, M), lambda i, j: matmul[i, j] + C[i, j], name="out")
+    out = te.compute((N, M), lambda i, j: transposed_gemm[i, j] + C[i, j], name="out")
 
     return [A, B, C, out]
 
@@ -80,7 +80,7 @@ M = int(sys.argv[4])
 target = tvm.target.Target("cuda")
 print(f"arc={target.arch}")
 
-task = tvm.auto_scheduler.SearchTask(func=matmul_add, args=(N, L, M, "float32"), target=target)
+task = tvm.auto_scheduler.SearchTask(func=transposed_gemm_add, args=(N, L, M, "float32"), target=target)
 
 print("Computational DAG:")
 print(task.compute_dag)
