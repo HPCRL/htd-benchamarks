@@ -10,9 +10,10 @@ def dilated_conv2d(N, H, W, CO, CI, KH, KW, stride, padding, dilation):
     input_tensor = te.placeholder((N, CI, H + 2 * padding, W + 2 * padding), name='input')
     filter_tensor = te.placeholder((CO, CI, KH, KW), name='filter')
 
-    # Create an output tensor
-    OH = (H + 2 * padding - KH) // stride + 1
-    OW = (W + 2 * padding - KW) // stride + 1
+    # Create an output 
+    # (Input Size + 2 * Padding - Dilation * (Kernel Size - 1) - 1) / Strides) + 1
+    OH = (H + 2 * padding - dilation * (KH - 1) - 1) // stride + 1
+    OW = (W + 2 * padding - dilation * (KW - 1) - 1) // stride + 1
     output_tensor = te.placeholder((N, CO, OH, OW), name='output')
 
     # Define the computation of the Conv2D operation with accumulation, stride, and padding
@@ -45,7 +46,7 @@ def test_result(sch, args, target):
     data_np = np.random.uniform(size=(N, CI, H + 2 * padding, W + 2 * padding)).astype(np.float32)
     weight_np = np.random.uniform(size=(CO, CI, KH, KW)).astype(np.float32)
     output_np = np.random.uniform(size=(N, CO, OH, OW)).astype(np.float32)
-    conv_np = conv2d_nchw_python(data_np, weight_np, strides, padding='VALID', dilation)
+    conv_np = conv2d_nchw_python(data_np, weight_np, strides, padding='VALID', dilation=dilation)
     out_np = conv_np + output_np
 
     dev = tvm.cuda()
