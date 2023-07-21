@@ -1,0 +1,901 @@
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Generate Sketches		#s: 1
+Sample Initial Population	#s: 177	fail_ct: 1871	Time elapsed: 4.61
+GA Iter: 0	Max score: 0.9888	Min score: 0.2552	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9997	Min score: 0.9794	#Pop: 128	#M+: 1392	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 34.03
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 0.61 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 176	fail_ct: 1872	Time elapsed: 2.09
+GA Iter: 0	Max score: 0.9884	Min score: 0.2810	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9999	Min score: 0.9804	#Pop: 128	#M+: 1393	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 34.50
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.17 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 176	fail_ct: 1872	Time elapsed: 2.01
+GA Iter: 0	Max score: 0.9860	Min score: 0.3211	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9860	Min score: 0.9860	#Pop: 128	#M+: 1408	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 34.74
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.45 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 186	fail_ct: 1862	Time elapsed: 2.00
+GA Iter: 0	Max score: 0.7674	Min score: 0.1663	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9918	Min score: 0.8191	#Pop: 128	#M+: 1395	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 34.46
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.60 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 177	fail_ct: 1871	Time elapsed: 1.97
+GA Iter: 0	Max score: 0.6000	Min score: 0.1660	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0002	Min score: 0.9213	#Pop: 128	#M+: 1389	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 33.26
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.87 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 167	fail_ct: 1881	Time elapsed: 1.92
+GA Iter: 0	Max score: 0.6791	Min score: 0.0861	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9784	Min score: 0.9572	#Pop: 128	#M+: 1400	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 32.13
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.94 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 151	fail_ct: 1897	Time elapsed: 1.86
+GA Iter: 0	Max score: 0.8309	Min score: 0.0406	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0668	Min score: 0.9606	#Pop: 128	#M+: 1380	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.86
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.99 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 164	fail_ct: 1884	Time elapsed: 1.93
+GA Iter: 0	Max score: 0.9431	Min score: 0.1344	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0708	Min score: 0.9653	#Pop: 128	#M+: 1390	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.85
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.75 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 193	fail_ct: 1855	Time elapsed: 2.11
+GA Iter: 0	Max score: 0.8607	Min score: 0.1240	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0026	Min score: 0.9626	#Pop: 128	#M+: 1390	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.88
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.83 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 182	fail_ct: 1866	Time elapsed: 2.02
+GA Iter: 0	Max score: 0.6216	Min score: 0.1236	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9699	Min score: 0.9271	#Pop: 128	#M+: 1399	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.53
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.93 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 161	fail_ct: 1887	Time elapsed: 1.92
+GA Iter: 0	Max score: 0.7900	Min score: 0.0934	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9627	Min score: 0.9105	#Pop: 128	#M+: 1399	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.34
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.84 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 180	fail_ct: 1868	Time elapsed: 1.96
+GA Iter: 0	Max score: 0.8260	Min score: 0.1316	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9828	Min score: 0.9300	#Pop: 128	#M+: 1404	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.34
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.15 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 171	fail_ct: 1877	Time elapsed: 1.93
+GA Iter: 0	Max score: 0.7393	Min score: 0.0916	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9777	Min score: 0.9355	#Pop: 128	#M+: 1386	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.29
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.37 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 167	fail_ct: 1881	Time elapsed: 1.96
+GA Iter: 0	Max score: 0.6930	Min score: 0.1080	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9838	Min score: 0.9234	#Pop: 128	#M+: 1386	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.27
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.44 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 207	fail_ct: 1841	Time elapsed: 2.06
+GA Iter: 0	Max score: 0.7716	Min score: 0.1610	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9693	Min score: 0.9180	#Pop: 128	#M+: 1397	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.42
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.63 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 181	fail_ct: 1867	Time elapsed: 1.98
+GA Iter: 0	Max score: 0.6693	Min score: 0.1176	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9685	Min score: 0.9111	#Pop: 128	#M+: 1399	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.43
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Done ]
+----------------------------------------------------------------------
+arc=sm_80
+Computational DAG:
+A = PLACEHOLDER [120, 120]
+B = PLACEHOLDER [120, 120]
+transposed_gemm(i, j) += (A[i, k]*B[j, k])
+C = PLACEHOLDER [120, 120]
+out(i, j) = (transposed_gemm[i, j] + C[i, j])
+
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(A: T.Buffer((120, 120), "float32"), B: T.Buffer((120, 120), "float32"), C: T.Buffer((120, 120), "float32"), out: T.Buffer((120, 120), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        blockIdx_x = T.launch_thread("blockIdx.x", 90)
+        transposed_gemm = T.allocate([2], "float32", "local")
+        A_shared = T.allocate([2400], "float32", "shared")
+        B_shared = T.allocate([960], "float32", "shared")
+        threadIdx_x = T.launch_thread("threadIdx.x", 80)
+        transposed_gemm_1 = T.Buffer((1,), data=transposed_gemm, scope="local", align=4)
+        transposed_gemm_1[0] = T.float32(0)
+        transposed_gemm_1[1] = T.float32(0)
+        threadIdx_x_1 = T.env_thread("threadIdx.x")
+        A_shared_1 = T.Buffer((2400,), data=A_shared, scope="shared")
+        A_1 = T.Buffer((14400,), data=A.data)
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2:threadIdx_x_1 * 2 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 160:threadIdx_x_1 * 2 + 160 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 160:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 160 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 320:threadIdx_x_1 * 2 + 320 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 320:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 320 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 480:threadIdx_x_1 * 2 + 480 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 480:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 480 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 640:threadIdx_x_1 * 2 + 640 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 640:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 640 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 800:threadIdx_x_1 * 2 + 800 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 800:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 800 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 960:threadIdx_x_1 * 2 + 960 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 960:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 960 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 1120:threadIdx_x_1 * 2 + 1120 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1120:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1120 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 1280:threadIdx_x_1 * 2 + 1280 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1280:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1280 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 1440:threadIdx_x_1 * 2 + 1440 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1440:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1440 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 1600:threadIdx_x_1 * 2 + 1600 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1600:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1600 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 1760:threadIdx_x_1 * 2 + 1760 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1760:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1760 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 1920:threadIdx_x_1 * 2 + 1920 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1920:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 1920 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 2080:threadIdx_x_1 * 2 + 2080 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 2080:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 2080 + 2]
+        with T.launch_thread(threadIdx_x_1, 80):
+            A_shared_1[threadIdx_x_1 * 2 + 2240:threadIdx_x_1 * 2 + 2240 + 2] = A_1[blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 2240:blockIdx_x // 15 * 2400 + threadIdx_x_1 * 2 + 2240 + 2]
+        threadIdx_x_2 = T.env_thread("threadIdx.x")
+        B_shared_1 = T.Buffer((960,), data=B_shared, scope="shared")
+        B_1 = T.Buffer((14400,), data=B.data)
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2]
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2 + 80] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2 + 80]
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2 + 160] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2 + 160]
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2 + 240] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2 + 240]
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2 + 320] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2 + 320]
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2 + 400] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2 + 400]
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2 + 480] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2 + 480]
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2 + 560] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2 + 560]
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2 + 640] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2 + 640]
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2 + 720] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2 + 720]
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2 + 800] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2 + 800]
+        with T.launch_thread(threadIdx_x_2, 80):
+            B_shared_1[threadIdx_x_2 + 880] = B_1[blockIdx_x % 15 * 960 + threadIdx_x_2 + 880]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120] * B_shared_1[threadIdx_x % 8 * 120]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1200] * B_shared_1[threadIdx_x % 8 * 120]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 1] * B_shared_1[threadIdx_x % 8 * 120 + 1]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1201] * B_shared_1[threadIdx_x % 8 * 120 + 1]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 2] * B_shared_1[threadIdx_x % 8 * 120 + 2]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1202] * B_shared_1[threadIdx_x % 8 * 120 + 2]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 3] * B_shared_1[threadIdx_x % 8 * 120 + 3]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1203] * B_shared_1[threadIdx_x % 8 * 120 + 3]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 4] * B_shared_1[threadIdx_x % 8 * 120 + 4]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1204] * B_shared_1[threadIdx_x % 8 * 120 + 4]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 5] * B_shared_1[threadIdx_x % 8 * 120 + 5]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1205] * B_shared_1[threadIdx_x % 8 * 120 + 5]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 6] * B_shared_1[threadIdx_x % 8 * 120 + 6]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1206] * B_shared_1[threadIdx_x % 8 * 120 + 6]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 7] * B_shared_1[threadIdx_x % 8 * 120 + 7]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1207] * B_shared_1[threadIdx_x % 8 * 120 + 7]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 8] * B_shared_1[threadIdx_x % 8 * 120 + 8]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1208] * B_shared_1[threadIdx_x % 8 * 120 + 8]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 9] * B_shared_1[threadIdx_x % 8 * 120 + 9]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1209] * B_shared_1[threadIdx_x % 8 * 120 + 9]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 10] * B_shared_1[threadIdx_x % 8 * 120 + 10]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1210] * B_shared_1[threadIdx_x % 8 * 120 + 10]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 11] * B_shared_1[threadIdx_x % 8 * 120 + 11]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1211] * B_shared_1[threadIdx_x % 8 * 120 + 11]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 12] * B_shared_1[threadIdx_x % 8 * 120 + 12]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1212] * B_shared_1[threadIdx_x % 8 * 120 + 12]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 13] * B_shared_1[threadIdx_x % 8 * 120 + 13]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1213] * B_shared_1[threadIdx_x % 8 * 120 + 13]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 14] * B_shared_1[threadIdx_x % 8 * 120 + 14]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1214] * B_shared_1[threadIdx_x % 8 * 120 + 14]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 15] * B_shared_1[threadIdx_x % 8 * 120 + 15]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1215] * B_shared_1[threadIdx_x % 8 * 120 + 15]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 16] * B_shared_1[threadIdx_x % 8 * 120 + 16]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1216] * B_shared_1[threadIdx_x % 8 * 120 + 16]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 17] * B_shared_1[threadIdx_x % 8 * 120 + 17]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1217] * B_shared_1[threadIdx_x % 8 * 120 + 17]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 18] * B_shared_1[threadIdx_x % 8 * 120 + 18]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1218] * B_shared_1[threadIdx_x % 8 * 120 + 18]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 19] * B_shared_1[threadIdx_x % 8 * 120 + 19]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1219] * B_shared_1[threadIdx_x % 8 * 120 + 19]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 20] * B_shared_1[threadIdx_x % 8 * 120 + 20]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1220] * B_shared_1[threadIdx_x % 8 * 120 + 20]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 21] * B_shared_1[threadIdx_x % 8 * 120 + 21]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1221] * B_shared_1[threadIdx_x % 8 * 120 + 21]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 22] * B_shared_1[threadIdx_x % 8 * 120 + 22]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1222] * B_shared_1[threadIdx_x % 8 * 120 + 22]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 23] * B_shared_1[threadIdx_x % 8 * 120 + 23]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1223] * B_shared_1[threadIdx_x % 8 * 120 + 23]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 24] * B_shared_1[threadIdx_x % 8 * 120 + 24]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1224] * B_shared_1[threadIdx_x % 8 * 120 + 24]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 25] * B_shared_1[threadIdx_x % 8 * 120 + 25]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1225] * B_shared_1[threadIdx_x % 8 * 120 + 25]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 26] * B_shared_1[threadIdx_x % 8 * 120 + 26]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1226] * B_shared_1[threadIdx_x % 8 * 120 + 26]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 27] * B_shared_1[threadIdx_x % 8 * 120 + 27]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1227] * B_shared_1[threadIdx_x % 8 * 120 + 27]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 28] * B_shared_1[threadIdx_x % 8 * 120 + 28]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1228] * B_shared_1[threadIdx_x % 8 * 120 + 28]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 29] * B_shared_1[threadIdx_x % 8 * 120 + 29]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1229] * B_shared_1[threadIdx_x % 8 * 120 + 29]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 30] * B_shared_1[threadIdx_x % 8 * 120 + 30]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1230] * B_shared_1[threadIdx_x % 8 * 120 + 30]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 31] * B_shared_1[threadIdx_x % 8 * 120 + 31]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1231] * B_shared_1[threadIdx_x % 8 * 120 + 31]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 32] * B_shared_1[threadIdx_x % 8 * 120 + 32]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1232] * B_shared_1[threadIdx_x % 8 * 120 + 32]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 33] * B_shared_1[threadIdx_x % 8 * 120 + 33]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1233] * B_shared_1[threadIdx_x % 8 * 120 + 33]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 34] * B_shared_1[threadIdx_x % 8 * 120 + 34]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1234] * B_shared_1[threadIdx_x % 8 * 120 + 34]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 35] * B_shared_1[threadIdx_x % 8 * 120 + 35]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1235] * B_shared_1[threadIdx_x % 8 * 120 + 35]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 36] * B_shared_1[threadIdx_x % 8 * 120 + 36]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1236] * B_shared_1[threadIdx_x % 8 * 120 + 36]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 37] * B_shared_1[threadIdx_x % 8 * 120 + 37]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1237] * B_shared_1[threadIdx_x % 8 * 120 + 37]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 38] * B_shared_1[threadIdx_x % 8 * 120 + 38]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1238] * B_shared_1[threadIdx_x % 8 * 120 + 38]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 39] * B_shared_1[threadIdx_x % 8 * 120 + 39]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1239] * B_shared_1[threadIdx_x % 8 * 120 + 39]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 40] * B_shared_1[threadIdx_x % 8 * 120 + 40]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1240] * B_shared_1[threadIdx_x % 8 * 120 + 40]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 41] * B_shared_1[threadIdx_x % 8 * 120 + 41]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1241] * B_shared_1[threadIdx_x % 8 * 120 + 41]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 42] * B_shared_1[threadIdx_x % 8 * 120 + 42]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1242] * B_shared_1[threadIdx_x % 8 * 120 + 42]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 43] * B_shared_1[threadIdx_x % 8 * 120 + 43]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1243] * B_shared_1[threadIdx_x % 8 * 120 + 43]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 44] * B_shared_1[threadIdx_x % 8 * 120 + 44]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1244] * B_shared_1[threadIdx_x % 8 * 120 + 44]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 45] * B_shared_1[threadIdx_x % 8 * 120 + 45]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1245] * B_shared_1[threadIdx_x % 8 * 120 + 45]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 46] * B_shared_1[threadIdx_x % 8 * 120 + 46]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1246] * B_shared_1[threadIdx_x % 8 * 120 + 46]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 47] * B_shared_1[threadIdx_x % 8 * 120 + 47]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1247] * B_shared_1[threadIdx_x % 8 * 120 + 47]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 48] * B_shared_1[threadIdx_x % 8 * 120 + 48]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1248] * B_shared_1[threadIdx_x % 8 * 120 + 48]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 49] * B_shared_1[threadIdx_x % 8 * 120 + 49]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1249] * B_shared_1[threadIdx_x % 8 * 120 + 49]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 50] * B_shared_1[threadIdx_x % 8 * 120 + 50]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1250] * B_shared_1[threadIdx_x % 8 * 120 + 50]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 51] * B_shared_1[threadIdx_x % 8 * 120 + 51]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1251] * B_shared_1[threadIdx_x % 8 * 120 + 51]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 52] * B_shared_1[threadIdx_x % 8 * 120 + 52]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1252] * B_shared_1[threadIdx_x % 8 * 120 + 52]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 53] * B_shared_1[threadIdx_x % 8 * 120 + 53]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1253] * B_shared_1[threadIdx_x % 8 * 120 + 53]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 54] * B_shared_1[threadIdx_x % 8 * 120 + 54]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1254] * B_shared_1[threadIdx_x % 8 * 120 + 54]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 55] * B_shared_1[threadIdx_x % 8 * 120 + 55]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1255] * B_shared_1[threadIdx_x % 8 * 120 + 55]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 56] * B_shared_1[threadIdx_x % 8 * 120 + 56]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1256] * B_shared_1[threadIdx_x % 8 * 120 + 56]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 57] * B_shared_1[threadIdx_x % 8 * 120 + 57]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1257] * B_shared_1[threadIdx_x % 8 * 120 + 57]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 58] * B_shared_1[threadIdx_x % 8 * 120 + 58]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1258] * B_shared_1[threadIdx_x % 8 * 120 + 58]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 59] * B_shared_1[threadIdx_x % 8 * 120 + 59]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1259] * B_shared_1[threadIdx_x % 8 * 120 + 59]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 60] * B_shared_1[threadIdx_x % 8 * 120 + 60]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1260] * B_shared_1[threadIdx_x % 8 * 120 + 60]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 61] * B_shared_1[threadIdx_x % 8 * 120 + 61]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1261] * B_shared_1[threadIdx_x % 8 * 120 + 61]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 62] * B_shared_1[threadIdx_x % 8 * 120 + 62]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1262] * B_shared_1[threadIdx_x % 8 * 120 + 62]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 63] * B_shared_1[threadIdx_x % 8 * 120 + 63]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1263] * B_shared_1[threadIdx_x % 8 * 120 + 63]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 64] * B_shared_1[threadIdx_x % 8 * 120 + 64]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1264] * B_shared_1[threadIdx_x % 8 * 120 + 64]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 65] * B_shared_1[threadIdx_x % 8 * 120 + 65]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1265] * B_shared_1[threadIdx_x % 8 * 120 + 65]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 66] * B_shared_1[threadIdx_x % 8 * 120 + 66]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1266] * B_shared_1[threadIdx_x % 8 * 120 + 66]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 67] * B_shared_1[threadIdx_x % 8 * 120 + 67]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1267] * B_shared_1[threadIdx_x % 8 * 120 + 67]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 68] * B_shared_1[threadIdx_x % 8 * 120 + 68]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1268] * B_shared_1[threadIdx_x % 8 * 120 + 68]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 69] * B_shared_1[threadIdx_x % 8 * 120 + 69]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1269] * B_shared_1[threadIdx_x % 8 * 120 + 69]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 70] * B_shared_1[threadIdx_x % 8 * 120 + 70]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1270] * B_shared_1[threadIdx_x % 8 * 120 + 70]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 71] * B_shared_1[threadIdx_x % 8 * 120 + 71]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1271] * B_shared_1[threadIdx_x % 8 * 120 + 71]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 72] * B_shared_1[threadIdx_x % 8 * 120 + 72]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1272] * B_shared_1[threadIdx_x % 8 * 120 + 72]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 73] * B_shared_1[threadIdx_x % 8 * 120 + 73]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1273] * B_shared_1[threadIdx_x % 8 * 120 + 73]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 74] * B_shared_1[threadIdx_x % 8 * 120 + 74]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1274] * B_shared_1[threadIdx_x % 8 * 120 + 74]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 75] * B_shared_1[threadIdx_x % 8 * 120 + 75]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1275] * B_shared_1[threadIdx_x % 8 * 120 + 75]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 76] * B_shared_1[threadIdx_x % 8 * 120 + 76]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1276] * B_shared_1[threadIdx_x % 8 * 120 + 76]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 77] * B_shared_1[threadIdx_x % 8 * 120 + 77]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1277] * B_shared_1[threadIdx_x % 8 * 120 + 77]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 78] * B_shared_1[threadIdx_x % 8 * 120 + 78]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1278] * B_shared_1[threadIdx_x % 8 * 120 + 78]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 79] * B_shared_1[threadIdx_x % 8 * 120 + 79]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1279] * B_shared_1[threadIdx_x % 8 * 120 + 79]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 80] * B_shared_1[threadIdx_x % 8 * 120 + 80]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1280] * B_shared_1[threadIdx_x % 8 * 120 + 80]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 81] * B_shared_1[threadIdx_x % 8 * 120 + 81]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1281] * B_shared_1[threadIdx_x % 8 * 120 + 81]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 82] * B_shared_1[threadIdx_x % 8 * 120 + 82]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1282] * B_shared_1[threadIdx_x % 8 * 120 + 82]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 83] * B_shared_1[threadIdx_x % 8 * 120 + 83]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1283] * B_shared_1[threadIdx_x % 8 * 120 + 83]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 84] * B_shared_1[threadIdx_x % 8 * 120 + 84]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1284] * B_shared_1[threadIdx_x % 8 * 120 + 84]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 85] * B_shared_1[threadIdx_x % 8 * 120 + 85]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1285] * B_shared_1[threadIdx_x % 8 * 120 + 85]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 86] * B_shared_1[threadIdx_x % 8 * 120 + 86]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1286] * B_shared_1[threadIdx_x % 8 * 120 + 86]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 87] * B_shared_1[threadIdx_x % 8 * 120 + 87]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1287] * B_shared_1[threadIdx_x % 8 * 120 + 87]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 88] * B_shared_1[threadIdx_x % 8 * 120 + 88]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1288] * B_shared_1[threadIdx_x % 8 * 120 + 88]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 89] * B_shared_1[threadIdx_x % 8 * 120 + 89]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1289] * B_shared_1[threadIdx_x % 8 * 120 + 89]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 90] * B_shared_1[threadIdx_x % 8 * 120 + 90]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1290] * B_shared_1[threadIdx_x % 8 * 120 + 90]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 91] * B_shared_1[threadIdx_x % 8 * 120 + 91]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1291] * B_shared_1[threadIdx_x % 8 * 120 + 91]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 92] * B_shared_1[threadIdx_x % 8 * 120 + 92]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1292] * B_shared_1[threadIdx_x % 8 * 120 + 92]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 93] * B_shared_1[threadIdx_x % 8 * 120 + 93]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1293] * B_shared_1[threadIdx_x % 8 * 120 + 93]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 94] * B_shared_1[threadIdx_x % 8 * 120 + 94]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1294] * B_shared_1[threadIdx_x % 8 * 120 + 94]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 95] * B_shared_1[threadIdx_x % 8 * 120 + 95]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1295] * B_shared_1[threadIdx_x % 8 * 120 + 95]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 96] * B_shared_1[threadIdx_x % 8 * 120 + 96]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1296] * B_shared_1[threadIdx_x % 8 * 120 + 96]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 97] * B_shared_1[threadIdx_x % 8 * 120 + 97]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1297] * B_shared_1[threadIdx_x % 8 * 120 + 97]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 98] * B_shared_1[threadIdx_x % 8 * 120 + 98]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1298] * B_shared_1[threadIdx_x % 8 * 120 + 98]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 99] * B_shared_1[threadIdx_x % 8 * 120 + 99]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1299] * B_shared_1[threadIdx_x % 8 * 120 + 99]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 100] * B_shared_1[threadIdx_x % 8 * 120 + 100]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1300] * B_shared_1[threadIdx_x % 8 * 120 + 100]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 101] * B_shared_1[threadIdx_x % 8 * 120 + 101]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1301] * B_shared_1[threadIdx_x % 8 * 120 + 101]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 102] * B_shared_1[threadIdx_x % 8 * 120 + 102]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1302] * B_shared_1[threadIdx_x % 8 * 120 + 102]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 103] * B_shared_1[threadIdx_x % 8 * 120 + 103]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1303] * B_shared_1[threadIdx_x % 8 * 120 + 103]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 104] * B_shared_1[threadIdx_x % 8 * 120 + 104]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1304] * B_shared_1[threadIdx_x % 8 * 120 + 104]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 105] * B_shared_1[threadIdx_x % 8 * 120 + 105]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1305] * B_shared_1[threadIdx_x % 8 * 120 + 105]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 106] * B_shared_1[threadIdx_x % 8 * 120 + 106]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1306] * B_shared_1[threadIdx_x % 8 * 120 + 106]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 107] * B_shared_1[threadIdx_x % 8 * 120 + 107]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1307] * B_shared_1[threadIdx_x % 8 * 120 + 107]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 108] * B_shared_1[threadIdx_x % 8 * 120 + 108]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1308] * B_shared_1[threadIdx_x % 8 * 120 + 108]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 109] * B_shared_1[threadIdx_x % 8 * 120 + 109]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1309] * B_shared_1[threadIdx_x % 8 * 120 + 109]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 110] * B_shared_1[threadIdx_x % 8 * 120 + 110]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1310] * B_shared_1[threadIdx_x % 8 * 120 + 110]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 111] * B_shared_1[threadIdx_x % 8 * 120 + 111]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1311] * B_shared_1[threadIdx_x % 8 * 120 + 111]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 112] * B_shared_1[threadIdx_x % 8 * 120 + 112]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1312] * B_shared_1[threadIdx_x % 8 * 120 + 112]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 113] * B_shared_1[threadIdx_x % 8 * 120 + 113]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1313] * B_shared_1[threadIdx_x % 8 * 120 + 113]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 114] * B_shared_1[threadIdx_x % 8 * 120 + 114]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1314] * B_shared_1[threadIdx_x % 8 * 120 + 114]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 115] * B_shared_1[threadIdx_x % 8 * 120 + 115]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1315] * B_shared_1[threadIdx_x % 8 * 120 + 115]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 116] * B_shared_1[threadIdx_x % 8 * 120 + 116]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1316] * B_shared_1[threadIdx_x % 8 * 120 + 116]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 117] * B_shared_1[threadIdx_x % 8 * 120 + 117]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1317] * B_shared_1[threadIdx_x % 8 * 120 + 117]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 118] * B_shared_1[threadIdx_x % 8 * 120 + 118]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1318] * B_shared_1[threadIdx_x % 8 * 120 + 118]
+        transposed_gemm_1[0] = transposed_gemm_1[0] + A_shared_1[threadIdx_x // 8 * 120 + 119] * B_shared_1[threadIdx_x % 8 * 120 + 119]
+        transposed_gemm_1[1] = transposed_gemm_1[1] + A_shared_1[threadIdx_x // 8 * 120 + 1319] * B_shared_1[threadIdx_x % 8 * 120 + 119]
+        out_1 = T.Buffer((14400,), data=out.data)
+        C_1 = T.Buffer((14400,), data=C.data)
+        out_1[blockIdx_x // 15 * 2400 + threadIdx_x // 8 * 120 + blockIdx_x % 15 * 8 + threadIdx_x % 8] = transposed_gemm_1[0] + C_1[blockIdx_x // 15 * 2400 + threadIdx_x // 8 * 120 + blockIdx_x % 15 * 8 + threadIdx_x % 8]
+        out_1[blockIdx_x // 15 * 2400 + threadIdx_x // 8 * 120 + blockIdx_x % 15 * 8 + threadIdx_x % 8 + 1200] = transposed_gemm_1[1] + C_1[blockIdx_x // 15 * 2400 + threadIdx_x // 8 * 120 + blockIdx_x % 15 * 8 + threadIdx_x % 8 + 1200]
+Equivalent python schedule:
+transposed_gemm_i, transposed_gemm_j, transposed_gemm_k = tuple(transposed_gemm.op.axis) + tuple(transposed_gemm.op.reduce_axis)
+out_i, out_j = tuple(out.op.axis) + tuple(out.op.reduce_axis)
+transposed_gemm_i_o_i, transposed_gemm_i_i = s[transposed_gemm].split(transposed_gemm_i, factor=1)
+transposed_gemm_i_o_o_i, transposed_gemm_i_o_i = s[transposed_gemm].split(transposed_gemm_i_o_i, factor=1)
+transposed_gemm_i_o_o_o_i, transposed_gemm_i_o_o_i = s[transposed_gemm].split(transposed_gemm_i_o_o_i, factor=10)
+transposed_gemm_i_o_o_o_o, transposed_gemm_i_o_o_o_i = s[transposed_gemm].split(transposed_gemm_i_o_o_o_i, factor=2)
+transposed_gemm_j_o_i, transposed_gemm_j_i = s[transposed_gemm].split(transposed_gemm_j, factor=1)
+transposed_gemm_j_o_o_i, transposed_gemm_j_o_i = s[transposed_gemm].split(transposed_gemm_j_o_i, factor=1)
+transposed_gemm_j_o_o_o_i, transposed_gemm_j_o_o_i = s[transposed_gemm].split(transposed_gemm_j_o_o_i, factor=8)
+transposed_gemm_j_o_o_o_o, transposed_gemm_j_o_o_o_i = s[transposed_gemm].split(transposed_gemm_j_o_o_o_i, factor=1)
+transposed_gemm_k_o_i, transposed_gemm_k_i = s[transposed_gemm].split(transposed_gemm_k, factor=60)
+transposed_gemm_k_o_o, transposed_gemm_k_o_i = s[transposed_gemm].split(transposed_gemm_k_o_i, factor=2)
+s[transposed_gemm].reorder(transposed_gemm_i_o_o_o_o, transposed_gemm_j_o_o_o_o, transposed_gemm_i_o_o_o_i, transposed_gemm_j_o_o_o_i, transposed_gemm_i_o_o_i, transposed_gemm_j_o_o_i, transposed_gemm_k_o_o, transposed_gemm_k_o_i, transposed_gemm_i_o_i, transposed_gemm_j_o_i, transposed_gemm_k_i, transposed_gemm_i_i, transposed_gemm_j_i)
+out_i_o_i, out_i_i = s[out].split(out_i, factor=1)
+out_i_o_o_i, out_i_o_i = s[out].split(out_i_o_i, factor=10)
+out_i_o_o_o, out_i_o_o_i = s[out].split(out_i_o_o_i, factor=2)
+out_j_o_i, out_j_i = s[out].split(out_j, factor=1)
+out_j_o_o_i, out_j_o_i = s[out].split(out_j_o_i, factor=8)
+out_j_o_o_o, out_j_o_o_i = s[out].split(out_j_o_o_i, factor=1)
+s[out].reorder(out_i_o_o_o, out_j_o_o_o, out_i_o_o_i, out_j_o_o_i, out_i_o_i, out_j_o_i, out_i_i, out_j_i)
+s[transposed_gemm].compute_at(s[out], out_j_o_i)
+B_shared = s.cache_read(B, "shared", [transposed_gemm])
+B_shared_ax0, B_shared_ax1 = tuple(B_shared.op.axis)
+s[B_shared].compute_at(s[transposed_gemm], transposed_gemm_k_o_o)
+A_shared = s.cache_read(A, "shared", [transposed_gemm])
+A_shared_ax0, A_shared_ax1 = tuple(A_shared.op.axis)
+s[A_shared].compute_at(s[transposed_gemm], transposed_gemm_k_o_o)
+out_i_o_o_o_j_o_o_o_fused = s[out].fuse(out_i_o_o_o, out_j_o_o_o)
+s[out].bind(out_i_o_o_o_j_o_o_o_fused, te.thread_axis("blockIdx.x"))
+out_i_o_o_i_j_o_o_i_fused = s[out].fuse(out_i_o_o_i, out_j_o_o_i)
+s[out].bind(out_i_o_o_i_j_o_o_i_fused, te.thread_axis("vthread"))
+out_i_o_i_j_o_i_fused = s[out].fuse(out_i_o_i, out_j_o_i)
+s[out].bind(out_i_o_i_j_o_i_fused, te.thread_axis("threadIdx.x"))
+B_shared_ax0_ax1_fused = s[B_shared].fuse(B_shared_ax0, B_shared_ax1)
+B_shared_ax0_ax1_fused_o, B_shared_ax0_ax1_fused_i = s[B_shared].split(B_shared_ax0_ax1_fused, factor=1)
+s[B_shared].vectorize(B_shared_ax0_ax1_fused_i)
+B_shared_ax0_ax1_fused_o_o, B_shared_ax0_ax1_fused_o_i = s[B_shared].split(B_shared_ax0_ax1_fused_o, factor=80)
+s[B_shared].bind(B_shared_ax0_ax1_fused_o_i, te.thread_axis("threadIdx.x"))
+A_shared_ax0_ax1_fused = s[A_shared].fuse(A_shared_ax0, A_shared_ax1)
+A_shared_ax0_ax1_fused_o, A_shared_ax0_ax1_fused_i = s[A_shared].split(A_shared_ax0_ax1_fused, factor=2)
+s[A_shared].vectorize(A_shared_ax0_ax1_fused_i)
+A_shared_ax0_ax1_fused_o_o, A_shared_ax0_ax1_fused_o_i = s[A_shared].split(A_shared_ax0_ax1_fused_o, factor=80)
+s[A_shared].bind(A_shared_ax0_ax1_fused_o_i, te.thread_axis("threadIdx.x"))
+s[transposed_gemm].pragma(transposed_gemm_i_o_o_o_o, "auto_unroll_max_step", 1024)
+s[transposed_gemm].pragma(transposed_gemm_i_o_o_o_o, "unroll_explicit", True)
+
+Equivalent CUDA code:
+
+#if (((__CUDACC_VER_MAJOR__ == 11) && (__CUDACC_VER_MINOR__ >= 4)) || \
+     (__CUDACC_VER_MAJOR__ > 11))
+#define TVM_ENABLE_L2_PREFETCH 1
+#else
+#define TVM_ENABLE_L2_PREFETCH 0
+#endif
+
+#ifdef _WIN32
+  using uint = unsigned int;
+  using uchar = unsigned char;
+  using ushort = unsigned short;
+  using int64_t = long long;
+  using uint64_t = unsigned long long;
+#else
+  #define uint unsigned int
+  #define uchar unsigned char
+  #define ushort unsigned short
+  #define int64_t long long
+  #define uint64_t unsigned long long
+#endif
+extern "C" __global__ void __launch_bounds__(80) default_function_kernel(float* __restrict__ A, float* __restrict__ B, float* __restrict__ C, float* __restrict__ out) {
+  float transposed_gemm[2];
+  __shared__ float A_shared[2400];
+  __shared__ float B_shared[960];
+  transposed_gemm[0] = 0.000000e+00f;
+  transposed_gemm[1] = 0.000000e+00f;
+  *(float2*)(A_shared + (((int)threadIdx.x) * 2)) = *(float2*)(A + (((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 160)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 160));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 320)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 320));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 480)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 480));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 640)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 640));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 800)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 800));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 960)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 960));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 1120)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 1120));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 1280)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 1280));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 1440)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 1440));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 1600)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 1600));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 1760)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 1760));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 1920)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 1920));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 2080)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 2080));
+  *(float2*)(A_shared + ((((int)threadIdx.x) * 2) + 2240)) = *(float2*)(A + ((((((int)blockIdx.x) / 15) * 2400) + (((int)threadIdx.x) * 2)) + 2240));
+  B_shared[((int)threadIdx.x)] = B[(((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x))];
+  B_shared[(((int)threadIdx.x) + 80)] = B[((((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x)) + 80)];
+  B_shared[(((int)threadIdx.x) + 160)] = B[((((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x)) + 160)];
+  B_shared[(((int)threadIdx.x) + 240)] = B[((((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x)) + 240)];
+  B_shared[(((int)threadIdx.x) + 320)] = B[((((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x)) + 320)];
+  B_shared[(((int)threadIdx.x) + 400)] = B[((((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x)) + 400)];
+  B_shared[(((int)threadIdx.x) + 480)] = B[((((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x)) + 480)];
+  B_shared[(((int)threadIdx.x) + 560)] = B[((((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x)) + 560)];
+  B_shared[(((int)threadIdx.x) + 640)] = B[((((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x)) + 640)];
+  B_shared[(((int)threadIdx.x) + 720)] = B[((((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x)) + 720)];
+  B_shared[(((int)threadIdx.x) + 800)] = B[((((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x)) + 800)];
+  B_shared[(((int)threadIdx.x) + 880)] = B[((((((int)blockIdx.x) % 15) * 960) + ((int)threadIdx.x)) + 880)];
+  __syncthreads();
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[((((int)threadIdx.x) >> 3) * 120)] * B_shared[((((int)threadIdx.x) & 7) * 120)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1200)] * B_shared[((((int)threadIdx.x) & 7) * 120)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 1)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1201)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 1)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 2)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 2)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1202)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 2)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 3)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 3)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1203)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 3)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 4)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 4)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1204)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 4)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 5)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 5)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1205)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 5)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 6)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 6)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1206)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 6)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 7)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 7)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1207)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 7)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 8)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 8)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1208)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 8)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 9)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 9)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1209)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 9)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 10)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 10)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1210)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 10)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 11)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 11)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1211)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 11)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 12)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 12)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1212)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 12)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 13)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 13)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1213)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 13)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 14)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 14)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1214)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 14)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 15)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 15)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1215)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 15)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 16)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 16)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1216)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 16)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 17)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 17)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1217)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 17)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 18)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 18)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1218)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 18)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 19)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 19)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1219)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 19)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 20)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 20)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1220)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 20)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 21)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 21)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1221)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 21)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 22)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 22)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1222)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 22)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 23)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 23)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1223)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 23)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 24)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 24)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1224)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 24)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 25)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 25)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1225)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 25)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 26)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 26)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1226)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 26)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 27)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 27)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1227)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 27)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 28)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 28)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1228)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 28)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 29)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 29)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1229)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 29)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 30)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 30)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1230)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 30)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 31)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 31)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1231)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 31)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 32)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 32)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1232)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 32)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 33)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 33)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1233)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 33)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 34)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 34)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1234)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 34)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 35)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 35)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1235)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 35)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 36)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 36)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1236)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 36)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 37)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 37)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1237)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 37)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 38)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 38)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1238)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 38)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 39)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 39)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1239)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 39)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 40)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 40)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1240)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 40)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 41)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 41)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1241)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 41)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 42)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 42)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1242)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 42)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 43)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 43)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1243)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 43)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 44)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 44)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1244)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 44)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 45)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 45)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1245)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 45)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 46)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 46)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1246)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 46)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 47)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 47)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1247)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 47)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 48)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 48)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1248)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 48)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 49)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 49)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1249)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 49)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 50)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 50)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1250)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 50)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 51)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 51)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1251)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 51)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 52)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 52)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1252)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 52)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 53)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 53)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1253)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 53)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 54)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 54)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1254)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 54)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 55)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 55)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1255)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 55)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 56)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 56)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1256)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 56)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 57)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 57)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1257)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 57)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 58)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 58)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1258)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 58)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 59)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 59)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1259)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 59)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 60)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 60)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1260)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 60)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 61)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 61)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1261)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 61)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 62)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 62)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1262)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 62)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 63)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 63)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1263)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 63)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 64)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 64)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1264)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 64)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 65)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 65)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1265)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 65)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 66)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 66)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1266)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 66)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 67)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 67)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1267)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 67)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 68)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 68)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1268)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 68)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 69)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 69)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1269)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 69)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 70)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 70)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1270)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 70)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 71)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 71)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1271)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 71)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 72)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 72)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1272)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 72)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 73)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 73)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1273)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 73)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 74)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 74)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1274)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 74)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 75)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 75)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1275)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 75)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 76)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 76)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1276)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 76)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 77)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 77)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1277)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 77)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 78)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 78)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1278)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 78)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 79)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 79)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1279)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 79)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 80)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 80)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1280)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 80)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 81)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 81)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1281)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 81)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 82)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 82)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1282)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 82)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 83)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 83)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1283)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 83)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 84)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 84)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1284)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 84)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 85)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 85)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1285)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 85)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 86)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 86)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1286)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 86)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 87)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 87)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1287)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 87)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 88)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 88)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1288)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 88)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 89)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 89)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1289)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 89)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 90)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 90)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1290)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 90)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 91)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 91)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1291)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 91)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 92)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 92)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1292)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 92)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 93)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 93)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1293)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 93)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 94)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 94)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1294)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 94)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 95)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 95)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1295)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 95)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 96)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 96)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1296)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 96)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 97)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 97)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1297)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 97)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 98)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 98)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1298)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 98)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 99)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 99)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1299)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 99)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 100)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 100)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1300)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 100)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 101)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 101)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1301)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 101)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 102)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 102)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1302)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 102)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 103)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 103)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1303)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 103)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 104)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 104)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1304)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 104)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 105)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 105)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1305)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 105)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 106)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 106)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1306)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 106)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 107)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 107)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1307)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 107)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 108)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 108)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1308)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 108)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 109)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 109)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1309)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 109)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 110)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 110)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1310)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 110)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 111)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 111)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1311)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 111)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 112)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 112)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1312)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 112)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 113)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 113)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1313)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 113)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 114)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 114)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1314)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 114)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 115)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 115)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1315)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 115)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 116)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 116)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1316)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 116)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 117)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 117)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1317)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 117)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 118)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 118)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1318)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 118)]));
+  transposed_gemm[0] = (transposed_gemm[0] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 119)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 119)]));
+  transposed_gemm[1] = (transposed_gemm[1] + (A_shared[(((((int)threadIdx.x) >> 3) * 120) + 1319)] * B_shared[(((((int)threadIdx.x) & 7) * 120) + 119)]));
+  out[(((((((int)blockIdx.x) / 15) * 2400) + ((((int)threadIdx.x) >> 3) * 120)) + ((((int)blockIdx.x) % 15) * 8)) + (((int)threadIdx.x) & 7))] = (transposed_gemm[0] + C[(((((((int)blockIdx.x) / 15) * 2400) + ((((int)threadIdx.x) >> 3) * 120)) + ((((int)blockIdx.x) % 15) * 8)) + (((int)threadIdx.x) & 7))]);
+  out[((((((((int)blockIdx.x) / 15) * 2400) + ((((int)threadIdx.x) >> 3) * 120)) + ((((int)blockIdx.x) % 15) * 8)) + (((int)threadIdx.x) & 7)) + 1200)] = (transposed_gemm[1] + C[((((((((int)blockIdx.x) / 15) * 2400) + ((((int)threadIdx.x) >> 3) * 120)) + ((((int)blockIdx.x) % 15) * 8)) + (((int)threadIdx.x) & 7)) + 1200)]);
+}
+
+

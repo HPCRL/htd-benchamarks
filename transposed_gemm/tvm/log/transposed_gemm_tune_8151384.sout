@@ -1,0 +1,373 @@
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Generate Sketches		#s: 1
+Sample Initial Population	#s: 128	fail_ct: 1920	Time elapsed: 3.80
+GA Iter: 0	Max score: 0.9973	Min score: 0.0036	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9999	Min score: 0.9800	#Pop: 128	#M+: 1383	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 30.79
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.29 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 132	fail_ct: 1916	Time elapsed: 2.71
+GA Iter: 0	Max score: 0.9819	Min score: 0.0326	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9999	Min score: 0.9771	#Pop: 128	#M+: 1396	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.52
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.30 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 129	fail_ct: 1919	Time elapsed: 2.68
+GA Iter: 0	Max score: 0.9740	Min score: 0.0432	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0628	Min score: 1.0042	#Pop: 128	#M+: 1388	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.01
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.72 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 113	fail_ct: 1935	Time elapsed: 2.40
+GA Iter: 0	Max score: 0.8070	Min score: -0.0825	#Pop: 113	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9726	Min score: 0.9167	#Pop: 128	#M+: 1411	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 30.15
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.58 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 125	fail_ct: 1923	Time elapsed: 2.58
+GA Iter: 0	Max score: 0.7350	Min score: 0.0203	#Pop: 125	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9693	Min score: 0.9034	#Pop: 128	#M+: 1387	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 30.29
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.56 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 121	fail_ct: 1927	Time elapsed: 2.66
+GA Iter: 0	Max score: 0.9040	Min score: 0.0041	#Pop: 121	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0363	Min score: 0.9595	#Pop: 128	#M+: 1394	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 30.54
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.23 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 129	fail_ct: 1919	Time elapsed: 2.65
+GA Iter: 0	Max score: 0.8841	Min score: -0.0040	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0042	Min score: 0.9642	#Pop: 128	#M+: 1400	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.05
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.50 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 140	fail_ct: 1908	Time elapsed: 2.63
+GA Iter: 0	Max score: 0.7459	Min score: 0.0276	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0070	Min score: 0.9692	#Pop: 128	#M+: 1397	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.20
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.59 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 128	fail_ct: 1920	Time elapsed: 2.72
+GA Iter: 0	Max score: 0.8805	Min score: -0.0278	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9873	Min score: 0.9665	#Pop: 128	#M+: 1391	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.35
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.57 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 124	fail_ct: 1924	Time elapsed: 2.57
+GA Iter: 0	Max score: 0.8212	Min score: -0.0111	#Pop: 124	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9916	Min score: 0.9659	#Pop: 128	#M+: 1391	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.48
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.78 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 125	fail_ct: 1923	Time elapsed: 2.59
+GA Iter: 0	Max score: 0.7364	Min score: -0.1083	#Pop: 125	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9910	Min score: 0.9661	#Pop: 128	#M+: 1398	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.72
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.82 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 103	fail_ct: 1945	Time elapsed: 2.50
+GA Iter: 0	Max score: 0.7862	Min score: -0.0069	#Pop: 102	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9856	Min score: 0.9661	#Pop: 128	#M+: 1381	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.83
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 3.12 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 128	fail_ct: 1920	Time elapsed: 2.68
+GA Iter: 0	Max score: 0.7598	Min score: -0.0585	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9774	Min score: 0.9575	#Pop: 128	#M+: 1388	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 32.11
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 3.07 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 123	fail_ct: 1925	Time elapsed: 2.67
+GA Iter: 0	Max score: 0.9433	Min score: -0.0349	#Pop: 123	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9719	Min score: 0.9555	#Pop: 128	#M+: 1393	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.99
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.79 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 140	fail_ct: 1908	Time elapsed: 2.74
+GA Iter: 0	Max score: 0.8659	Min score: 0.0270	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9755	Min score: 0.9531	#Pop: 128	#M+: 1386	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 32.36
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.80 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 112	fail_ct: 1936	Time elapsed: 2.63
+GA Iter: 0	Max score: 0.7169	Min score: -0.0522	#Pop: 112	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9678	Min score: 0.9490	#Pop: 128	#M+: 1395	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 31.85
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Done ]
+----------------------------------------------------------------------
+arc=sm_80
+Computational DAG:
+A = PLACEHOLDER [1024, 1024]
+B = PLACEHOLDER [32, 1024]
+transposed_gemm(i, j) += (A[i, k]*B[j, k])
+C = PLACEHOLDER [1024, 32]
+out(i, j) = (transposed_gemm[i, j] + C[i, j])
+
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(A: T.Buffer((1024, 1024), "float32"), B: T.Buffer((32, 1024), "float32"), C: T.Buffer((1024, 32), "float32"), out: T.Buffer((1024, 32), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        blockIdx_x = T.launch_thread("blockIdx.x", 128)
+        transposed_gemm = T.allocate([8], "float32", "local")
+        A_shared = T.allocate([2048], "float32", "shared")
+        B_shared = T.allocate([2048], "float32", "shared")
+        threadIdx_x = T.launch_thread("threadIdx.x", 32)
+        transposed_gemm_1 = T.Buffer((16,), data=transposed_gemm, scope="local", align=16)
+        for j_outer_inner_init in range(4):
+            transposed_gemm_1[j_outer_inner_init] = T.float32(0)
+            transposed_gemm_1[j_outer_inner_init + 4] = T.float32(0)
+        for k_outer_outer in range(8):
+            A_shared_1 = T.Buffer((2048,), data=A_shared, scope="shared")
+            for ax0_ax1_fused_outer_outer in range(16):
+                threadIdx_x_1 = T.launch_thread("threadIdx.x", 32)
+                A_1 = T.Buffer((1048576,), data=A.data)
+                A_shared_1[ax0_ax1_fused_outer_outer * 128 + threadIdx_x_1 * 4:ax0_ax1_fused_outer_outer * 128 + threadIdx_x_1 * 4 + 4] = A_1[blockIdx_x // 2 * 16384 + ax0_ax1_fused_outer_outer * 1024 + k_outer_outer * 128 + threadIdx_x_1 * 4:blockIdx_x // 2 * 16384 + ax0_ax1_fused_outer_outer * 1024 + k_outer_outer * 128 + threadIdx_x_1 * 4 + 4]
+            B_shared_1 = T.Buffer((2048,), data=B_shared, scope="shared")
+            for ax0_ax1_fused_outer_outer in range(16):
+                threadIdx_x_1 = T.launch_thread("threadIdx.x", 32)
+                B_1 = T.Buffer((32768,), data=B.data)
+                B_shared_1[ax0_ax1_fused_outer_outer * 128 + threadIdx_x_1 * 4:ax0_ax1_fused_outer_outer * 128 + threadIdx_x_1 * 4 + 4] = B_1[blockIdx_x % 2 * 16384 + ax0_ax1_fused_outer_outer * 1024 + k_outer_outer * 128 + threadIdx_x_1 * 4:blockIdx_x % 2 * 16384 + ax0_ax1_fused_outer_outer * 1024 + k_outer_outer * 128 + threadIdx_x_1 * 4 + 4]
+            for k_outer_inner, j_outer_inner, k_inner in T.grid(16, 4, 8):
+                cse_var_2: T.int32 = k_outer_inner * 8
+                cse_var_1: T.int32 = j_outer_inner + 4
+                transposed_gemm_1[j_outer_inner] = transposed_gemm_1[j_outer_inner] + A_shared_1[threadIdx_x // 2 * 128 + cse_var_2 + k_inner] * B_shared_1[threadIdx_x % 2 * 512 + j_outer_inner * 128 + cse_var_2 + k_inner]
+                transposed_gemm_1[cse_var_1] = transposed_gemm_1[cse_var_1] + A_shared_1[threadIdx_x // 2 * 128 + cse_var_2 + k_inner] * B_shared_1[threadIdx_x % 2 * 512 + j_outer_inner * 128 + cse_var_2 + k_inner + 1024]
+        for j_inner in range(4):
+            out_1 = T.Buffer((32768,), data=out.data)
+            C_1 = T.Buffer((32768,), data=C.data)
+            out_1[blockIdx_x // 2 * 512 + threadIdx_x // 2 * 32 + blockIdx_x % 2 * 16 + threadIdx_x % 2 * 4 + j_inner] = transposed_gemm_1[j_inner] + C_1[blockIdx_x // 2 * 512 + threadIdx_x // 2 * 32 + blockIdx_x % 2 * 16 + threadIdx_x % 2 * 4 + j_inner]
+            out_1[blockIdx_x // 2 * 512 + threadIdx_x // 2 * 32 + blockIdx_x % 2 * 16 + threadIdx_x % 2 * 4 + j_inner + 8] = transposed_gemm_1[j_inner + 4] + C_1[blockIdx_x // 2 * 512 + threadIdx_x // 2 * 32 + blockIdx_x % 2 * 16 + threadIdx_x % 2 * 4 + j_inner + 8]
+Equivalent python schedule:
+transposed_gemm_i, transposed_gemm_j, transposed_gemm_k = tuple(transposed_gemm.op.axis) + tuple(transposed_gemm.op.reduce_axis)
+out_i, out_j = tuple(out.op.axis) + tuple(out.op.reduce_axis)
+transposed_gemm_i_o_i, transposed_gemm_i_i = s[transposed_gemm].split(transposed_gemm_i, factor=1)
+transposed_gemm_i_o_o_i, transposed_gemm_i_o_i = s[transposed_gemm].split(transposed_gemm_i_o_i, factor=1)
+transposed_gemm_i_o_o_o_i, transposed_gemm_i_o_o_i = s[transposed_gemm].split(transposed_gemm_i_o_o_i, factor=16)
+transposed_gemm_i_o_o_o_o, transposed_gemm_i_o_o_o_i = s[transposed_gemm].split(transposed_gemm_i_o_o_o_i, factor=1)
+transposed_gemm_j_o_i, transposed_gemm_j_i = s[transposed_gemm].split(transposed_gemm_j, factor=1)
+transposed_gemm_j_o_o_i, transposed_gemm_j_o_i = s[transposed_gemm].split(transposed_gemm_j_o_i, factor=4)
+transposed_gemm_j_o_o_o_i, transposed_gemm_j_o_o_i = s[transposed_gemm].split(transposed_gemm_j_o_o_i, factor=2)
+transposed_gemm_j_o_o_o_o, transposed_gemm_j_o_o_o_i = s[transposed_gemm].split(transposed_gemm_j_o_o_o_i, factor=2)
+transposed_gemm_k_o_i, transposed_gemm_k_i = s[transposed_gemm].split(transposed_gemm_k, factor=8)
+transposed_gemm_k_o_o, transposed_gemm_k_o_i = s[transposed_gemm].split(transposed_gemm_k_o_i, factor=16)
+s[transposed_gemm].reorder(transposed_gemm_i_o_o_o_o, transposed_gemm_j_o_o_o_o, transposed_gemm_i_o_o_o_i, transposed_gemm_j_o_o_o_i, transposed_gemm_i_o_o_i, transposed_gemm_j_o_o_i, transposed_gemm_k_o_o, transposed_gemm_k_o_i, transposed_gemm_i_o_i, transposed_gemm_j_o_i, transposed_gemm_k_i, transposed_gemm_i_i, transposed_gemm_j_i)
+out_i_o_i, out_i_i = s[out].split(out_i, factor=1)
+out_i_o_o_i, out_i_o_i = s[out].split(out_i_o_i, factor=16)
+out_i_o_o_o, out_i_o_o_i = s[out].split(out_i_o_o_i, factor=1)
+out_j_o_i, out_j_i = s[out].split(out_j, factor=4)
+out_j_o_o_i, out_j_o_i = s[out].split(out_j_o_i, factor=2)
+out_j_o_o_o, out_j_o_o_i = s[out].split(out_j_o_o_i, factor=2)
+s[out].reorder(out_i_o_o_o, out_j_o_o_o, out_i_o_o_i, out_j_o_o_i, out_i_o_i, out_j_o_i, out_i_i, out_j_i)
+s[transposed_gemm].compute_at(s[out], out_j_o_i)
+B_shared = s.cache_read(B, "shared", [transposed_gemm])
+B_shared_ax0, B_shared_ax1 = tuple(B_shared.op.axis)
+s[B_shared].compute_at(s[transposed_gemm], transposed_gemm_k_o_o)
+A_shared = s.cache_read(A, "shared", [transposed_gemm])
+A_shared_ax0, A_shared_ax1 = tuple(A_shared.op.axis)
+s[A_shared].compute_at(s[transposed_gemm], transposed_gemm_k_o_o)
+out_i_o_o_o_j_o_o_o_fused = s[out].fuse(out_i_o_o_o, out_j_o_o_o)
+s[out].bind(out_i_o_o_o_j_o_o_o_fused, te.thread_axis("blockIdx.x"))
+out_i_o_o_i_j_o_o_i_fused = s[out].fuse(out_i_o_o_i, out_j_o_o_i)
+s[out].bind(out_i_o_o_i_j_o_o_i_fused, te.thread_axis("vthread"))
+out_i_o_i_j_o_i_fused = s[out].fuse(out_i_o_i, out_j_o_i)
+s[out].bind(out_i_o_i_j_o_i_fused, te.thread_axis("threadIdx.x"))
+B_shared_ax0_ax1_fused = s[B_shared].fuse(B_shared_ax0, B_shared_ax1)
+B_shared_ax0_ax1_fused_o, B_shared_ax0_ax1_fused_i = s[B_shared].split(B_shared_ax0_ax1_fused, factor=4)
+s[B_shared].vectorize(B_shared_ax0_ax1_fused_i)
+B_shared_ax0_ax1_fused_o_o, B_shared_ax0_ax1_fused_o_i = s[B_shared].split(B_shared_ax0_ax1_fused_o, factor=32)
+s[B_shared].bind(B_shared_ax0_ax1_fused_o_i, te.thread_axis("threadIdx.x"))
+A_shared_ax0_ax1_fused = s[A_shared].fuse(A_shared_ax0, A_shared_ax1)
+A_shared_ax0_ax1_fused_o, A_shared_ax0_ax1_fused_i = s[A_shared].split(A_shared_ax0_ax1_fused, factor=4)
+s[A_shared].vectorize(A_shared_ax0_ax1_fused_i)
+A_shared_ax0_ax1_fused_o_o, A_shared_ax0_ax1_fused_o_i = s[A_shared].split(A_shared_ax0_ax1_fused_o, factor=32)
+s[A_shared].bind(A_shared_ax0_ax1_fused_o_i, te.thread_axis("threadIdx.x"))
+s[transposed_gemm].pragma(transposed_gemm_i_o_o_o_o, "auto_unroll_max_step", 0)
+s[transposed_gemm].pragma(transposed_gemm_i_o_o_o_o, "unroll_explicit", True)
+
+Equivalent CUDA code:
+
+#if (((__CUDACC_VER_MAJOR__ == 11) && (__CUDACC_VER_MINOR__ >= 4)) || \
+     (__CUDACC_VER_MAJOR__ > 11))
+#define TVM_ENABLE_L2_PREFETCH 1
+#else
+#define TVM_ENABLE_L2_PREFETCH 0
+#endif
+
+#ifdef _WIN32
+  using uint = unsigned int;
+  using uchar = unsigned char;
+  using ushort = unsigned short;
+  using int64_t = long long;
+  using uint64_t = unsigned long long;
+#else
+  #define uint unsigned int
+  #define uchar unsigned char
+  #define ushort unsigned short
+  #define int64_t long long
+  #define uint64_t unsigned long long
+#endif
+extern "C" __global__ void __launch_bounds__(32) default_function_kernel(float* __restrict__ A, float* __restrict__ B, float* __restrict__ C, float* __restrict__ out) {
+  float transposed_gemm[8];
+  __shared__ float A_shared[2048];
+  __shared__ float B_shared[2048];
+  for (int j_outer_inner_init = 0; j_outer_inner_init < 4; ++j_outer_inner_init) {
+    transposed_gemm[j_outer_inner_init] = 0.000000e+00f;
+    transposed_gemm[(j_outer_inner_init + 4)] = 0.000000e+00f;
+  }
+  for (int k_outer_outer = 0; k_outer_outer < 8; ++k_outer_outer) {
+    __syncthreads();
+    for (int ax0_ax1_fused_outer_outer = 0; ax0_ax1_fused_outer_outer < 16; ++ax0_ax1_fused_outer_outer) {
+      *(float4*)(A_shared + ((ax0_ax1_fused_outer_outer * 128) + (((int)threadIdx.x) * 4))) = *(float4*)(A + (((((((int)blockIdx.x) >> 1) * 16384) + (ax0_ax1_fused_outer_outer * 1024)) + (k_outer_outer * 128)) + (((int)threadIdx.x) * 4)));
+    }
+    for (int ax0_ax1_fused_outer_outer_1 = 0; ax0_ax1_fused_outer_outer_1 < 16; ++ax0_ax1_fused_outer_outer_1) {
+      *(float4*)(B_shared + ((ax0_ax1_fused_outer_outer_1 * 128) + (((int)threadIdx.x) * 4))) = *(float4*)(B + (((((((int)blockIdx.x) & 1) * 16384) + (ax0_ax1_fused_outer_outer_1 * 1024)) + (k_outer_outer * 128)) + (((int)threadIdx.x) * 4)));
+    }
+    __syncthreads();
+    for (int k_outer_inner = 0; k_outer_inner < 16; ++k_outer_inner) {
+      for (int j_outer_inner = 0; j_outer_inner < 4; ++j_outer_inner) {
+        for (int k_inner = 0; k_inner < 8; ++k_inner) {
+          transposed_gemm[j_outer_inner] = (transposed_gemm[j_outer_inner] + (A_shared[((((((int)threadIdx.x) >> 1) * 128) + (k_outer_inner * 8)) + k_inner)] * B_shared[(((((((int)threadIdx.x) & 1) * 512) + (j_outer_inner * 128)) + (k_outer_inner * 8)) + k_inner)]));
+          transposed_gemm[(j_outer_inner + 4)] = (transposed_gemm[(j_outer_inner + 4)] + (A_shared[((((((int)threadIdx.x) >> 1) * 128) + (k_outer_inner * 8)) + k_inner)] * B_shared[((((((((int)threadIdx.x) & 1) * 512) + (j_outer_inner * 128)) + (k_outer_inner * 8)) + k_inner) + 1024)]));
+        }
+      }
+    }
+  }
+  for (int j_inner = 0; j_inner < 4; ++j_inner) {
+    out[((((((((int)blockIdx.x) >> 1) * 512) + ((((int)threadIdx.x) >> 1) * 32)) + ((((int)blockIdx.x) & 1) * 16)) + ((((int)threadIdx.x) & 1) * 4)) + j_inner)] = (transposed_gemm[j_inner] + C[((((((((int)blockIdx.x) >> 1) * 512) + ((((int)threadIdx.x) >> 1) * 32)) + ((((int)blockIdx.x) & 1) * 16)) + ((((int)threadIdx.x) & 1) * 4)) + j_inner)]);
+    out[(((((((((int)blockIdx.x) >> 1) * 512) + ((((int)threadIdx.x) >> 1) * 32)) + ((((int)blockIdx.x) & 1) * 16)) + ((((int)threadIdx.x) & 1) * 4)) + j_inner) + 8)] = (transposed_gemm[(j_inner + 4)] + C[(((((((((int)blockIdx.x) >> 1) * 512) + ((((int)threadIdx.x) >> 1) * 32)) + ((((int)blockIdx.x) & 1) * 16)) + ((((int)threadIdx.x) & 1) * 4)) + j_inner) + 8)]);
+  }
+}
+
+

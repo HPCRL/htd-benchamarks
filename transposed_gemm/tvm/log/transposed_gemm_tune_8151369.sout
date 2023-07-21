@@ -1,0 +1,525 @@
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Generate Sketches		#s: 1
+Sample Initial Population	#s: 138	fail_ct: 1910	Time elapsed: 4.12
+GA Iter: 0	Max score: 0.9656	Min score: 0.0731	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9999	Min score: 0.9764	#Pop: 128	#M+: 1388	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 33.11
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 0.34 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 148	fail_ct: 1900	Time elapsed: 3.16
+GA Iter: 0	Max score: 0.9894	Min score: 0.1361	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0000	Min score: 0.9811	#Pop: 128	#M+: 1383	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 33.32
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 0.70 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 114	fail_ct: 1934	Time elapsed: 3.02
+GA Iter: 0	Max score: 1.0246	Min score: 0.0810	#Pop: 114	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0593	Min score: 1.0593	#Pop: 128	#M+: 1392	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 32.26
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.24 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 124	fail_ct: 1924	Time elapsed: 3.07
+GA Iter: 0	Max score: 0.6631	Min score: 0.0916	#Pop: 124	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9909	Min score: 0.8814	#Pop: 128	#M+: 1400	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 32.97
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.36 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 107	fail_ct: 1941	Time elapsed: 2.99
+GA Iter: 0	Max score: 0.5404	Min score: -0.0103	#Pop: 107	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 1.0095	Min score: 0.9293	#Pop: 128	#M+: 1391	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 32.99
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.79 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 114	fail_ct: 1934	Time elapsed: 3.06
+GA Iter: 0	Max score: 0.5281	Min score: -0.0092	#Pop: 114	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9853	Min score: 0.8943	#Pop: 128	#M+: 1386	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 33.71
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.82 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 118	fail_ct: 1930	Time elapsed: 2.95
+GA Iter: 0	Max score: 0.5391	Min score: -0.0480	#Pop: 118	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9932	Min score: 0.8938	#Pop: 128	#M+: 1395	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 33.87
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.87 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 125	fail_ct: 1923	Time elapsed: 3.11
+GA Iter: 0	Max score: 0.4915	Min score: -0.0502	#Pop: 125	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9986	Min score: 0.9862	#Pop: 128	#M+: 1398	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 33.64
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.80 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 113	fail_ct: 1935	Time elapsed: 3.15
+GA Iter: 0	Max score: 0.6856	Min score: -0.0471	#Pop: 113	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9932	Min score: 0.9749	#Pop: 128	#M+: 1401	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 33.34
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.93 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 126	fail_ct: 1922	Time elapsed: 3.17
+GA Iter: 0	Max score: 0.6212	Min score: -0.1356	#Pop: 126	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9926	Min score: 0.9803	#Pop: 128	#M+: 1397	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 33.23
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.15 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 133	fail_ct: 1915	Time elapsed: 3.22
+GA Iter: 0	Max score: 0.6654	Min score: -0.0565	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9932	Min score: 0.9863	#Pop: 128	#M+: 1385	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 33.03
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.99 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 124	fail_ct: 1924	Time elapsed: 3.15
+GA Iter: 0	Max score: 0.7276	Min score: -0.0762	#Pop: 124	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9940	Min score: 0.9880	#Pop: 128	#M+: 1393	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 32.91
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.34 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 119	fail_ct: 1929	Time elapsed: 3.02
+GA Iter: 0	Max score: 0.7427	Min score: -0.1325	#Pop: 119	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9921	Min score: 0.9883	#Pop: 128	#M+: 1403	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 32.76
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.30 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 139	fail_ct: 1909	Time elapsed: 3.04
+GA Iter: 0	Max score: 0.6618	Min score: -0.0478	#Pop: 128	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9935	Min score: 0.9872	#Pop: 128	#M+: 1399	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 32.89
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 2.02 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 120	fail_ct: 1928	Time elapsed: 2.95
+GA Iter: 0	Max score: 0.7616	Min score: -0.1161	#Pop: 120	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9913	Min score: 0.9863	#Pop: 128	#M+: 1391	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 32.69
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Train cost model ]
+----------------------------------------------------------------------
+Time elapsed for training: 1.96 s
+----------------------------------------------------------------------
+------------------------------  [ Search ]
+----------------------------------------------------------------------
+Sample Initial Population	#s: 125	fail_ct: 1923	Time elapsed: 2.95
+GA Iter: 0	Max score: 0.6392	Min score: -0.0509	#Pop: 125	#M+: 0	#M-: 0
+GA Iter: 4	Max score: 0.9909	Min score: 0.9874	#Pop: 128	#M+: 1403	#M-: 0
+EvolutionarySearch		#s: 128	Time elapsed: 32.59
+----------------------------------------------------------------------
+------------------------------  [ Measure ]
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+------------------------------  [ Done ]
+----------------------------------------------------------------------
+arc=sm_80
+Computational DAG:
+A = PLACEHOLDER [1024, 512]
+B = PLACEHOLDER [1024, 512]
+transposed_gemm(i, j) += (A[i, k]*B[j, k])
+C = PLACEHOLDER [1024, 1024]
+out(i, j) = (transposed_gemm[i, j] + C[i, j])
+
+Lowered TIR:
+# from tvm.script import ir as I
+# from tvm.script import tir as T
+
+@I.ir_module
+class Module:
+    @T.prim_func
+    def main(A: T.Buffer((1024, 512), "float32"), B: T.Buffer((1024, 512), "float32"), C: T.Buffer((1024, 1024), "float32"), out: T.Buffer((1024, 1024), "float32")):
+        T.func_attr({"from_legacy_te_schedule": T.bool(True), "global_symbol": "main", "tir.noalias": T.bool(True)})
+        blockIdx_x = T.launch_thread("blockIdx.x", 2048)
+        transposed_gemm = T.allocate([16], "float32", "local")
+        A_shared = T.allocate([256], "float32", "shared")
+        B_shared = T.allocate([128], "float32", "shared")
+        threadIdx_x = T.launch_thread("threadIdx.x", 32)
+        transposed_gemm_1 = T.Buffer((16,), data=transposed_gemm, scope="local")
+        transposed_gemm_1[0] = T.float32(0)
+        transposed_gemm_1[1] = T.float32(0)
+        transposed_gemm_1[2] = T.float32(0)
+        transposed_gemm_1[3] = T.float32(0)
+        transposed_gemm_1[4] = T.float32(0)
+        transposed_gemm_1[5] = T.float32(0)
+        transposed_gemm_1[6] = T.float32(0)
+        transposed_gemm_1[7] = T.float32(0)
+        transposed_gemm_1[8] = T.float32(0)
+        transposed_gemm_1[9] = T.float32(0)
+        transposed_gemm_1[10] = T.float32(0)
+        transposed_gemm_1[11] = T.float32(0)
+        transposed_gemm_1[12] = T.float32(0)
+        transposed_gemm_1[13] = T.float32(0)
+        transposed_gemm_1[14] = T.float32(0)
+        transposed_gemm_1[15] = T.float32(0)
+        for k_outer_outer in range(64):
+            cse_var_1: T.int32 = k_outer_outer * 8
+            threadIdx_x_1 = T.env_thread("threadIdx.x")
+            A_shared_1 = T.Buffer((256,), data=A_shared, scope="shared")
+            A_1 = T.Buffer((524288,), data=A.data)
+            with T.launch_thread(threadIdx_x_1, 32):
+                A_shared_1[threadIdx_x_1 * 4:threadIdx_x_1 * 4 + 4] = A_1[blockIdx_x // 64 * 16384 + threadIdx_x_1 // 2 * 512 + cse_var_1 + threadIdx_x_1 % 2 * 4:blockIdx_x // 64 * 16384 + threadIdx_x_1 // 2 * 512 + cse_var_1 + threadIdx_x_1 % 2 * 4 + 4]
+            with T.launch_thread(threadIdx_x_1, 32):
+                A_shared_1[threadIdx_x_1 * 4 + 128:threadIdx_x_1 * 4 + 128 + 4] = A_1[blockIdx_x // 64 * 16384 + threadIdx_x_1 // 2 * 512 + cse_var_1 + threadIdx_x_1 % 2 * 4 + 8192:blockIdx_x // 64 * 16384 + threadIdx_x_1 // 2 * 512 + cse_var_1 + threadIdx_x_1 % 2 * 4 + 8192 + 4]
+            threadIdx_x_2 = T.env_thread("threadIdx.x")
+            B_shared_1 = T.Buffer((128,), data=B_shared, scope="shared")
+            B_1 = T.Buffer((524288,), data=B.data)
+            with T.launch_thread(threadIdx_x_2, 32):
+                B_shared_1[threadIdx_x_2 * 2:threadIdx_x_2 * 2 + 2] = B_1[blockIdx_x % 64 * 8192 + threadIdx_x_2 // 4 * 512 + cse_var_1 + threadIdx_x_2 % 4 * 2:blockIdx_x % 64 * 8192 + threadIdx_x_2 // 4 * 512 + cse_var_1 + threadIdx_x_2 % 4 * 2 + 2]
+            with T.launch_thread(threadIdx_x_2, 32):
+                B_shared_1[threadIdx_x_2 * 2 + 64:threadIdx_x_2 * 2 + 64 + 2] = B_1[blockIdx_x % 64 * 8192 + threadIdx_x_2 // 4 * 512 + cse_var_1 + threadIdx_x_2 % 4 * 2 + 4096:blockIdx_x % 64 * 8192 + threadIdx_x_2 // 4 * 512 + cse_var_1 + threadIdx_x_2 % 4 * 2 + 4096 + 2]
+            for i_outer_inner in range(2):
+                cse_var_9: T.int32 = i_outer_inner * 8
+                cse_var_8: T.int32 = cse_var_9 + 7
+                cse_var_7: T.int32 = cse_var_9 + 6
+                cse_var_6: T.int32 = cse_var_9 + 5
+                cse_var_5: T.int32 = cse_var_9 + 4
+                cse_var_4: T.int32 = cse_var_9 + 3
+                cse_var_3: T.int32 = cse_var_9 + 2
+                cse_var_2: T.int32 = cse_var_9 + 1
+                transposed_gemm_1[cse_var_9] = transposed_gemm_1[cse_var_9] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64] * B_shared_1[threadIdx_x % 16 * 8]
+                transposed_gemm_1[cse_var_2] = transposed_gemm_1[cse_var_2] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 8] * B_shared_1[threadIdx_x % 16 * 8]
+                transposed_gemm_1[cse_var_3] = transposed_gemm_1[cse_var_3] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 16] * B_shared_1[threadIdx_x % 16 * 8]
+                transposed_gemm_1[cse_var_4] = transposed_gemm_1[cse_var_4] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 24] * B_shared_1[threadIdx_x % 16 * 8]
+                transposed_gemm_1[cse_var_5] = transposed_gemm_1[cse_var_5] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 32] * B_shared_1[threadIdx_x % 16 * 8]
+                transposed_gemm_1[cse_var_6] = transposed_gemm_1[cse_var_6] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 40] * B_shared_1[threadIdx_x % 16 * 8]
+                transposed_gemm_1[cse_var_7] = transposed_gemm_1[cse_var_7] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 48] * B_shared_1[threadIdx_x % 16 * 8]
+                transposed_gemm_1[cse_var_8] = transposed_gemm_1[cse_var_8] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 56] * B_shared_1[threadIdx_x % 16 * 8]
+                transposed_gemm_1[cse_var_9] = transposed_gemm_1[cse_var_9] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 1] * B_shared_1[threadIdx_x % 16 * 8 + 1]
+                transposed_gemm_1[cse_var_2] = transposed_gemm_1[cse_var_2] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 9] * B_shared_1[threadIdx_x % 16 * 8 + 1]
+                transposed_gemm_1[cse_var_3] = transposed_gemm_1[cse_var_3] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 17] * B_shared_1[threadIdx_x % 16 * 8 + 1]
+                transposed_gemm_1[cse_var_4] = transposed_gemm_1[cse_var_4] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 25] * B_shared_1[threadIdx_x % 16 * 8 + 1]
+                transposed_gemm_1[cse_var_5] = transposed_gemm_1[cse_var_5] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 33] * B_shared_1[threadIdx_x % 16 * 8 + 1]
+                transposed_gemm_1[cse_var_6] = transposed_gemm_1[cse_var_6] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 41] * B_shared_1[threadIdx_x % 16 * 8 + 1]
+                transposed_gemm_1[cse_var_7] = transposed_gemm_1[cse_var_7] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 49] * B_shared_1[threadIdx_x % 16 * 8 + 1]
+                transposed_gemm_1[cse_var_8] = transposed_gemm_1[cse_var_8] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 57] * B_shared_1[threadIdx_x % 16 * 8 + 1]
+                transposed_gemm_1[cse_var_9] = transposed_gemm_1[cse_var_9] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 2] * B_shared_1[threadIdx_x % 16 * 8 + 2]
+                transposed_gemm_1[cse_var_2] = transposed_gemm_1[cse_var_2] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 10] * B_shared_1[threadIdx_x % 16 * 8 + 2]
+                transposed_gemm_1[cse_var_3] = transposed_gemm_1[cse_var_3] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 18] * B_shared_1[threadIdx_x % 16 * 8 + 2]
+                transposed_gemm_1[cse_var_4] = transposed_gemm_1[cse_var_4] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 26] * B_shared_1[threadIdx_x % 16 * 8 + 2]
+                transposed_gemm_1[cse_var_5] = transposed_gemm_1[cse_var_5] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 34] * B_shared_1[threadIdx_x % 16 * 8 + 2]
+                transposed_gemm_1[cse_var_6] = transposed_gemm_1[cse_var_6] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 42] * B_shared_1[threadIdx_x % 16 * 8 + 2]
+                transposed_gemm_1[cse_var_7] = transposed_gemm_1[cse_var_7] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 50] * B_shared_1[threadIdx_x % 16 * 8 + 2]
+                transposed_gemm_1[cse_var_8] = transposed_gemm_1[cse_var_8] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 58] * B_shared_1[threadIdx_x % 16 * 8 + 2]
+                transposed_gemm_1[cse_var_9] = transposed_gemm_1[cse_var_9] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 3] * B_shared_1[threadIdx_x % 16 * 8 + 3]
+                transposed_gemm_1[cse_var_2] = transposed_gemm_1[cse_var_2] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 11] * B_shared_1[threadIdx_x % 16 * 8 + 3]
+                transposed_gemm_1[cse_var_3] = transposed_gemm_1[cse_var_3] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 19] * B_shared_1[threadIdx_x % 16 * 8 + 3]
+                transposed_gemm_1[cse_var_4] = transposed_gemm_1[cse_var_4] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 27] * B_shared_1[threadIdx_x % 16 * 8 + 3]
+                transposed_gemm_1[cse_var_5] = transposed_gemm_1[cse_var_5] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 35] * B_shared_1[threadIdx_x % 16 * 8 + 3]
+                transposed_gemm_1[cse_var_6] = transposed_gemm_1[cse_var_6] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 43] * B_shared_1[threadIdx_x % 16 * 8 + 3]
+                transposed_gemm_1[cse_var_7] = transposed_gemm_1[cse_var_7] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 51] * B_shared_1[threadIdx_x % 16 * 8 + 3]
+                transposed_gemm_1[cse_var_8] = transposed_gemm_1[cse_var_8] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 59] * B_shared_1[threadIdx_x % 16 * 8 + 3]
+                transposed_gemm_1[cse_var_9] = transposed_gemm_1[cse_var_9] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 4] * B_shared_1[threadIdx_x % 16 * 8 + 4]
+                transposed_gemm_1[cse_var_2] = transposed_gemm_1[cse_var_2] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 12] * B_shared_1[threadIdx_x % 16 * 8 + 4]
+                transposed_gemm_1[cse_var_3] = transposed_gemm_1[cse_var_3] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 20] * B_shared_1[threadIdx_x % 16 * 8 + 4]
+                transposed_gemm_1[cse_var_4] = transposed_gemm_1[cse_var_4] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 28] * B_shared_1[threadIdx_x % 16 * 8 + 4]
+                transposed_gemm_1[cse_var_5] = transposed_gemm_1[cse_var_5] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 36] * B_shared_1[threadIdx_x % 16 * 8 + 4]
+                transposed_gemm_1[cse_var_6] = transposed_gemm_1[cse_var_6] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 44] * B_shared_1[threadIdx_x % 16 * 8 + 4]
+                transposed_gemm_1[cse_var_7] = transposed_gemm_1[cse_var_7] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 52] * B_shared_1[threadIdx_x % 16 * 8 + 4]
+                transposed_gemm_1[cse_var_8] = transposed_gemm_1[cse_var_8] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 60] * B_shared_1[threadIdx_x % 16 * 8 + 4]
+                transposed_gemm_1[cse_var_9] = transposed_gemm_1[cse_var_9] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 5] * B_shared_1[threadIdx_x % 16 * 8 + 5]
+                transposed_gemm_1[cse_var_2] = transposed_gemm_1[cse_var_2] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 13] * B_shared_1[threadIdx_x % 16 * 8 + 5]
+                transposed_gemm_1[cse_var_3] = transposed_gemm_1[cse_var_3] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 21] * B_shared_1[threadIdx_x % 16 * 8 + 5]
+                transposed_gemm_1[cse_var_4] = transposed_gemm_1[cse_var_4] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 29] * B_shared_1[threadIdx_x % 16 * 8 + 5]
+                transposed_gemm_1[cse_var_5] = transposed_gemm_1[cse_var_5] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 37] * B_shared_1[threadIdx_x % 16 * 8 + 5]
+                transposed_gemm_1[cse_var_6] = transposed_gemm_1[cse_var_6] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 45] * B_shared_1[threadIdx_x % 16 * 8 + 5]
+                transposed_gemm_1[cse_var_7] = transposed_gemm_1[cse_var_7] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 53] * B_shared_1[threadIdx_x % 16 * 8 + 5]
+                transposed_gemm_1[cse_var_8] = transposed_gemm_1[cse_var_8] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 61] * B_shared_1[threadIdx_x % 16 * 8 + 5]
+                transposed_gemm_1[cse_var_9] = transposed_gemm_1[cse_var_9] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 6] * B_shared_1[threadIdx_x % 16 * 8 + 6]
+                transposed_gemm_1[cse_var_2] = transposed_gemm_1[cse_var_2] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 14] * B_shared_1[threadIdx_x % 16 * 8 + 6]
+                transposed_gemm_1[cse_var_3] = transposed_gemm_1[cse_var_3] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 22] * B_shared_1[threadIdx_x % 16 * 8 + 6]
+                transposed_gemm_1[cse_var_4] = transposed_gemm_1[cse_var_4] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 30] * B_shared_1[threadIdx_x % 16 * 8 + 6]
+                transposed_gemm_1[cse_var_5] = transposed_gemm_1[cse_var_5] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 38] * B_shared_1[threadIdx_x % 16 * 8 + 6]
+                transposed_gemm_1[cse_var_6] = transposed_gemm_1[cse_var_6] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 46] * B_shared_1[threadIdx_x % 16 * 8 + 6]
+                transposed_gemm_1[cse_var_7] = transposed_gemm_1[cse_var_7] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 54] * B_shared_1[threadIdx_x % 16 * 8 + 6]
+                transposed_gemm_1[cse_var_8] = transposed_gemm_1[cse_var_8] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 62] * B_shared_1[threadIdx_x % 16 * 8 + 6]
+                transposed_gemm_1[cse_var_9] = transposed_gemm_1[cse_var_9] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 7] * B_shared_1[threadIdx_x % 16 * 8 + 7]
+                transposed_gemm_1[cse_var_2] = transposed_gemm_1[cse_var_2] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 15] * B_shared_1[threadIdx_x % 16 * 8 + 7]
+                transposed_gemm_1[cse_var_3] = transposed_gemm_1[cse_var_3] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 23] * B_shared_1[threadIdx_x % 16 * 8 + 7]
+                transposed_gemm_1[cse_var_4] = transposed_gemm_1[cse_var_4] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 31] * B_shared_1[threadIdx_x % 16 * 8 + 7]
+                transposed_gemm_1[cse_var_5] = transposed_gemm_1[cse_var_5] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 39] * B_shared_1[threadIdx_x % 16 * 8 + 7]
+                transposed_gemm_1[cse_var_6] = transposed_gemm_1[cse_var_6] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 47] * B_shared_1[threadIdx_x % 16 * 8 + 7]
+                transposed_gemm_1[cse_var_7] = transposed_gemm_1[cse_var_7] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 55] * B_shared_1[threadIdx_x % 16 * 8 + 7]
+                transposed_gemm_1[cse_var_8] = transposed_gemm_1[cse_var_8] + A_shared_1[threadIdx_x // 16 * 128 + i_outer_inner * 64 + 63] * B_shared_1[threadIdx_x % 16 * 8 + 7]
+        for i_inner in range(16):
+            out_1 = T.Buffer((1048576,), data=out.data)
+            C_1 = T.Buffer((1048576,), data=C.data)
+            out_1[blockIdx_x // 64 * 32768 + threadIdx_x // 16 * 16384 + i_inner * 1024 + blockIdx_x % 64 * 16 + threadIdx_x % 16] = transposed_gemm_1[i_inner] + C_1[blockIdx_x // 64 * 32768 + threadIdx_x // 16 * 16384 + i_inner * 1024 + blockIdx_x % 64 * 16 + threadIdx_x % 16]
+Equivalent python schedule:
+transposed_gemm_i, transposed_gemm_j, transposed_gemm_k = tuple(transposed_gemm.op.axis) + tuple(transposed_gemm.op.reduce_axis)
+out_i, out_j = tuple(out.op.axis) + tuple(out.op.reduce_axis)
+transposed_gemm_i_o_i, transposed_gemm_i_i = s[transposed_gemm].split(transposed_gemm_i, factor=8)
+transposed_gemm_i_o_o_i, transposed_gemm_i_o_i = s[transposed_gemm].split(transposed_gemm_i_o_i, factor=2)
+transposed_gemm_i_o_o_o_i, transposed_gemm_i_o_o_i = s[transposed_gemm].split(transposed_gemm_i_o_o_i, factor=2)
+transposed_gemm_i_o_o_o_o, transposed_gemm_i_o_o_o_i = s[transposed_gemm].split(transposed_gemm_i_o_o_o_i, factor=1)
+transposed_gemm_j_o_i, transposed_gemm_j_i = s[transposed_gemm].split(transposed_gemm_j, factor=1)
+transposed_gemm_j_o_o_i, transposed_gemm_j_o_i = s[transposed_gemm].split(transposed_gemm_j_o_i, factor=1)
+transposed_gemm_j_o_o_o_i, transposed_gemm_j_o_o_i = s[transposed_gemm].split(transposed_gemm_j_o_o_i, factor=16)
+transposed_gemm_j_o_o_o_o, transposed_gemm_j_o_o_o_i = s[transposed_gemm].split(transposed_gemm_j_o_o_o_i, factor=1)
+transposed_gemm_k_o_i, transposed_gemm_k_i = s[transposed_gemm].split(transposed_gemm_k, factor=8)
+transposed_gemm_k_o_o, transposed_gemm_k_o_i = s[transposed_gemm].split(transposed_gemm_k_o_i, factor=1)
+s[transposed_gemm].reorder(transposed_gemm_i_o_o_o_o, transposed_gemm_j_o_o_o_o, transposed_gemm_i_o_o_o_i, transposed_gemm_j_o_o_o_i, transposed_gemm_i_o_o_i, transposed_gemm_j_o_o_i, transposed_gemm_k_o_o, transposed_gemm_k_o_i, transposed_gemm_i_o_i, transposed_gemm_j_o_i, transposed_gemm_k_i, transposed_gemm_i_i, transposed_gemm_j_i)
+out_i_o_i, out_i_i = s[out].split(out_i, factor=16)
+out_i_o_o_i, out_i_o_i = s[out].split(out_i_o_i, factor=2)
+out_i_o_o_o, out_i_o_o_i = s[out].split(out_i_o_o_i, factor=1)
+out_j_o_i, out_j_i = s[out].split(out_j, factor=1)
+out_j_o_o_i, out_j_o_i = s[out].split(out_j_o_i, factor=16)
+out_j_o_o_o, out_j_o_o_i = s[out].split(out_j_o_o_i, factor=1)
+s[out].reorder(out_i_o_o_o, out_j_o_o_o, out_i_o_o_i, out_j_o_o_i, out_i_o_i, out_j_o_i, out_i_i, out_j_i)
+s[transposed_gemm].compute_at(s[out], out_j_o_i)
+B_shared = s.cache_read(B, "shared", [transposed_gemm])
+B_shared_ax0, B_shared_ax1 = tuple(B_shared.op.axis)
+s[B_shared].compute_at(s[transposed_gemm], transposed_gemm_k_o_o)
+A_shared = s.cache_read(A, "shared", [transposed_gemm])
+A_shared_ax0, A_shared_ax1 = tuple(A_shared.op.axis)
+s[A_shared].compute_at(s[transposed_gemm], transposed_gemm_k_o_o)
+out_i_o_o_o_j_o_o_o_fused = s[out].fuse(out_i_o_o_o, out_j_o_o_o)
+s[out].bind(out_i_o_o_o_j_o_o_o_fused, te.thread_axis("blockIdx.x"))
+out_i_o_o_i_j_o_o_i_fused = s[out].fuse(out_i_o_o_i, out_j_o_o_i)
+s[out].bind(out_i_o_o_i_j_o_o_i_fused, te.thread_axis("vthread"))
+out_i_o_i_j_o_i_fused = s[out].fuse(out_i_o_i, out_j_o_i)
+s[out].bind(out_i_o_i_j_o_i_fused, te.thread_axis("threadIdx.x"))
+B_shared_ax0_ax1_fused = s[B_shared].fuse(B_shared_ax0, B_shared_ax1)
+B_shared_ax0_ax1_fused_o, B_shared_ax0_ax1_fused_i = s[B_shared].split(B_shared_ax0_ax1_fused, factor=2)
+s[B_shared].vectorize(B_shared_ax0_ax1_fused_i)
+B_shared_ax0_ax1_fused_o_o, B_shared_ax0_ax1_fused_o_i = s[B_shared].split(B_shared_ax0_ax1_fused_o, factor=32)
+s[B_shared].bind(B_shared_ax0_ax1_fused_o_i, te.thread_axis("threadIdx.x"))
+A_shared_ax0_ax1_fused = s[A_shared].fuse(A_shared_ax0, A_shared_ax1)
+A_shared_ax0_ax1_fused_o, A_shared_ax0_ax1_fused_i = s[A_shared].split(A_shared_ax0_ax1_fused, factor=4)
+s[A_shared].vectorize(A_shared_ax0_ax1_fused_i)
+A_shared_ax0_ax1_fused_o_o, A_shared_ax0_ax1_fused_o_i = s[A_shared].split(A_shared_ax0_ax1_fused_o, factor=32)
+s[A_shared].bind(A_shared_ax0_ax1_fused_o_i, te.thread_axis("threadIdx.x"))
+s[transposed_gemm].pragma(transposed_gemm_i_o_o_o_o, "auto_unroll_max_step", 64)
+s[transposed_gemm].pragma(transposed_gemm_i_o_o_o_o, "unroll_explicit", True)
+
+Equivalent CUDA code:
+
+#if (((__CUDACC_VER_MAJOR__ == 11) && (__CUDACC_VER_MINOR__ >= 4)) || \
+     (__CUDACC_VER_MAJOR__ > 11))
+#define TVM_ENABLE_L2_PREFETCH 1
+#else
+#define TVM_ENABLE_L2_PREFETCH 0
+#endif
+
+#ifdef _WIN32
+  using uint = unsigned int;
+  using uchar = unsigned char;
+  using ushort = unsigned short;
+  using int64_t = long long;
+  using uint64_t = unsigned long long;
+#else
+  #define uint unsigned int
+  #define uchar unsigned char
+  #define ushort unsigned short
+  #define int64_t long long
+  #define uint64_t unsigned long long
+#endif
+extern "C" __global__ void __launch_bounds__(32) default_function_kernel(float* __restrict__ A, float* __restrict__ B, float* __restrict__ C, float* __restrict__ out) {
+  float transposed_gemm[16];
+  __shared__ float A_shared[256];
+  __shared__ float B_shared[128];
+  transposed_gemm[0] = 0.000000e+00f;
+  transposed_gemm[1] = 0.000000e+00f;
+  transposed_gemm[2] = 0.000000e+00f;
+  transposed_gemm[3] = 0.000000e+00f;
+  transposed_gemm[4] = 0.000000e+00f;
+  transposed_gemm[5] = 0.000000e+00f;
+  transposed_gemm[6] = 0.000000e+00f;
+  transposed_gemm[7] = 0.000000e+00f;
+  transposed_gemm[8] = 0.000000e+00f;
+  transposed_gemm[9] = 0.000000e+00f;
+  transposed_gemm[10] = 0.000000e+00f;
+  transposed_gemm[11] = 0.000000e+00f;
+  transposed_gemm[12] = 0.000000e+00f;
+  transposed_gemm[13] = 0.000000e+00f;
+  transposed_gemm[14] = 0.000000e+00f;
+  transposed_gemm[15] = 0.000000e+00f;
+  for (int k_outer_outer = 0; k_outer_outer < 64; ++k_outer_outer) {
+    __syncthreads();
+    *(float4*)(A_shared + (((int)threadIdx.x) * 4)) = *(float4*)(A + (((((((int)blockIdx.x) >> 6) * 16384) + ((((int)threadIdx.x) >> 1) * 512)) + (k_outer_outer * 8)) + ((((int)threadIdx.x) & 1) * 4)));
+    *(float4*)(A_shared + ((((int)threadIdx.x) * 4) + 128)) = *(float4*)(A + ((((((((int)blockIdx.x) >> 6) * 16384) + ((((int)threadIdx.x) >> 1) * 512)) + (k_outer_outer * 8)) + ((((int)threadIdx.x) & 1) * 4)) + 8192));
+    *(float2*)(B_shared + (((int)threadIdx.x) * 2)) = *(float2*)(B + (((((((int)blockIdx.x) & 63) * 8192) + ((((int)threadIdx.x) >> 2) * 512)) + (k_outer_outer * 8)) + ((((int)threadIdx.x) & 3) * 2)));
+    *(float2*)(B_shared + ((((int)threadIdx.x) * 2) + 64)) = *(float2*)(B + ((((((((int)blockIdx.x) & 63) * 8192) + ((((int)threadIdx.x) >> 2) * 512)) + (k_outer_outer * 8)) + ((((int)threadIdx.x) & 3) * 2)) + 4096));
+    __syncthreads();
+    for (int i_outer_inner = 0; i_outer_inner < 2; ++i_outer_inner) {
+      transposed_gemm[(i_outer_inner * 8)] = (transposed_gemm[(i_outer_inner * 8)] + (A_shared[(((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64))] * B_shared[((((int)threadIdx.x) & 15) * 8)]));
+      transposed_gemm[((i_outer_inner * 8) + 1)] = (transposed_gemm[((i_outer_inner * 8) + 1)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 8)] * B_shared[((((int)threadIdx.x) & 15) * 8)]));
+      transposed_gemm[((i_outer_inner * 8) + 2)] = (transposed_gemm[((i_outer_inner * 8) + 2)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 16)] * B_shared[((((int)threadIdx.x) & 15) * 8)]));
+      transposed_gemm[((i_outer_inner * 8) + 3)] = (transposed_gemm[((i_outer_inner * 8) + 3)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 24)] * B_shared[((((int)threadIdx.x) & 15) * 8)]));
+      transposed_gemm[((i_outer_inner * 8) + 4)] = (transposed_gemm[((i_outer_inner * 8) + 4)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 32)] * B_shared[((((int)threadIdx.x) & 15) * 8)]));
+      transposed_gemm[((i_outer_inner * 8) + 5)] = (transposed_gemm[((i_outer_inner * 8) + 5)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 40)] * B_shared[((((int)threadIdx.x) & 15) * 8)]));
+      transposed_gemm[((i_outer_inner * 8) + 6)] = (transposed_gemm[((i_outer_inner * 8) + 6)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 48)] * B_shared[((((int)threadIdx.x) & 15) * 8)]));
+      transposed_gemm[((i_outer_inner * 8) + 7)] = (transposed_gemm[((i_outer_inner * 8) + 7)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 56)] * B_shared[((((int)threadIdx.x) & 15) * 8)]));
+      transposed_gemm[(i_outer_inner * 8)] = (transposed_gemm[(i_outer_inner * 8)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 1)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 1)]));
+      transposed_gemm[((i_outer_inner * 8) + 1)] = (transposed_gemm[((i_outer_inner * 8) + 1)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 9)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 1)]));
+      transposed_gemm[((i_outer_inner * 8) + 2)] = (transposed_gemm[((i_outer_inner * 8) + 2)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 17)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 1)]));
+      transposed_gemm[((i_outer_inner * 8) + 3)] = (transposed_gemm[((i_outer_inner * 8) + 3)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 25)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 1)]));
+      transposed_gemm[((i_outer_inner * 8) + 4)] = (transposed_gemm[((i_outer_inner * 8) + 4)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 33)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 1)]));
+      transposed_gemm[((i_outer_inner * 8) + 5)] = (transposed_gemm[((i_outer_inner * 8) + 5)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 41)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 1)]));
+      transposed_gemm[((i_outer_inner * 8) + 6)] = (transposed_gemm[((i_outer_inner * 8) + 6)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 49)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 1)]));
+      transposed_gemm[((i_outer_inner * 8) + 7)] = (transposed_gemm[((i_outer_inner * 8) + 7)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 57)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 1)]));
+      transposed_gemm[(i_outer_inner * 8)] = (transposed_gemm[(i_outer_inner * 8)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 2)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 2)]));
+      transposed_gemm[((i_outer_inner * 8) + 1)] = (transposed_gemm[((i_outer_inner * 8) + 1)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 10)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 2)]));
+      transposed_gemm[((i_outer_inner * 8) + 2)] = (transposed_gemm[((i_outer_inner * 8) + 2)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 18)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 2)]));
+      transposed_gemm[((i_outer_inner * 8) + 3)] = (transposed_gemm[((i_outer_inner * 8) + 3)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 26)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 2)]));
+      transposed_gemm[((i_outer_inner * 8) + 4)] = (transposed_gemm[((i_outer_inner * 8) + 4)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 34)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 2)]));
+      transposed_gemm[((i_outer_inner * 8) + 5)] = (transposed_gemm[((i_outer_inner * 8) + 5)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 42)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 2)]));
+      transposed_gemm[((i_outer_inner * 8) + 6)] = (transposed_gemm[((i_outer_inner * 8) + 6)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 50)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 2)]));
+      transposed_gemm[((i_outer_inner * 8) + 7)] = (transposed_gemm[((i_outer_inner * 8) + 7)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 58)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 2)]));
+      transposed_gemm[(i_outer_inner * 8)] = (transposed_gemm[(i_outer_inner * 8)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 3)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 3)]));
+      transposed_gemm[((i_outer_inner * 8) + 1)] = (transposed_gemm[((i_outer_inner * 8) + 1)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 11)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 3)]));
+      transposed_gemm[((i_outer_inner * 8) + 2)] = (transposed_gemm[((i_outer_inner * 8) + 2)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 19)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 3)]));
+      transposed_gemm[((i_outer_inner * 8) + 3)] = (transposed_gemm[((i_outer_inner * 8) + 3)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 27)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 3)]));
+      transposed_gemm[((i_outer_inner * 8) + 4)] = (transposed_gemm[((i_outer_inner * 8) + 4)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 35)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 3)]));
+      transposed_gemm[((i_outer_inner * 8) + 5)] = (transposed_gemm[((i_outer_inner * 8) + 5)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 43)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 3)]));
+      transposed_gemm[((i_outer_inner * 8) + 6)] = (transposed_gemm[((i_outer_inner * 8) + 6)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 51)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 3)]));
+      transposed_gemm[((i_outer_inner * 8) + 7)] = (transposed_gemm[((i_outer_inner * 8) + 7)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 59)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 3)]));
+      transposed_gemm[(i_outer_inner * 8)] = (transposed_gemm[(i_outer_inner * 8)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 4)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 4)]));
+      transposed_gemm[((i_outer_inner * 8) + 1)] = (transposed_gemm[((i_outer_inner * 8) + 1)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 12)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 4)]));
+      transposed_gemm[((i_outer_inner * 8) + 2)] = (transposed_gemm[((i_outer_inner * 8) + 2)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 20)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 4)]));
+      transposed_gemm[((i_outer_inner * 8) + 3)] = (transposed_gemm[((i_outer_inner * 8) + 3)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 28)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 4)]));
+      transposed_gemm[((i_outer_inner * 8) + 4)] = (transposed_gemm[((i_outer_inner * 8) + 4)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 36)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 4)]));
+      transposed_gemm[((i_outer_inner * 8) + 5)] = (transposed_gemm[((i_outer_inner * 8) + 5)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 44)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 4)]));
+      transposed_gemm[((i_outer_inner * 8) + 6)] = (transposed_gemm[((i_outer_inner * 8) + 6)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 52)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 4)]));
+      transposed_gemm[((i_outer_inner * 8) + 7)] = (transposed_gemm[((i_outer_inner * 8) + 7)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 60)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 4)]));
+      transposed_gemm[(i_outer_inner * 8)] = (transposed_gemm[(i_outer_inner * 8)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 5)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 5)]));
+      transposed_gemm[((i_outer_inner * 8) + 1)] = (transposed_gemm[((i_outer_inner * 8) + 1)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 13)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 5)]));
+      transposed_gemm[((i_outer_inner * 8) + 2)] = (transposed_gemm[((i_outer_inner * 8) + 2)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 21)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 5)]));
+      transposed_gemm[((i_outer_inner * 8) + 3)] = (transposed_gemm[((i_outer_inner * 8) + 3)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 29)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 5)]));
+      transposed_gemm[((i_outer_inner * 8) + 4)] = (transposed_gemm[((i_outer_inner * 8) + 4)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 37)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 5)]));
+      transposed_gemm[((i_outer_inner * 8) + 5)] = (transposed_gemm[((i_outer_inner * 8) + 5)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 45)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 5)]));
+      transposed_gemm[((i_outer_inner * 8) + 6)] = (transposed_gemm[((i_outer_inner * 8) + 6)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 53)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 5)]));
+      transposed_gemm[((i_outer_inner * 8) + 7)] = (transposed_gemm[((i_outer_inner * 8) + 7)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 61)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 5)]));
+      transposed_gemm[(i_outer_inner * 8)] = (transposed_gemm[(i_outer_inner * 8)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 6)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 6)]));
+      transposed_gemm[((i_outer_inner * 8) + 1)] = (transposed_gemm[((i_outer_inner * 8) + 1)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 14)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 6)]));
+      transposed_gemm[((i_outer_inner * 8) + 2)] = (transposed_gemm[((i_outer_inner * 8) + 2)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 22)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 6)]));
+      transposed_gemm[((i_outer_inner * 8) + 3)] = (transposed_gemm[((i_outer_inner * 8) + 3)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 30)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 6)]));
+      transposed_gemm[((i_outer_inner * 8) + 4)] = (transposed_gemm[((i_outer_inner * 8) + 4)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 38)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 6)]));
+      transposed_gemm[((i_outer_inner * 8) + 5)] = (transposed_gemm[((i_outer_inner * 8) + 5)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 46)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 6)]));
+      transposed_gemm[((i_outer_inner * 8) + 6)] = (transposed_gemm[((i_outer_inner * 8) + 6)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 54)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 6)]));
+      transposed_gemm[((i_outer_inner * 8) + 7)] = (transposed_gemm[((i_outer_inner * 8) + 7)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 62)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 6)]));
+      transposed_gemm[(i_outer_inner * 8)] = (transposed_gemm[(i_outer_inner * 8)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 7)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 7)]));
+      transposed_gemm[((i_outer_inner * 8) + 1)] = (transposed_gemm[((i_outer_inner * 8) + 1)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 15)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 7)]));
+      transposed_gemm[((i_outer_inner * 8) + 2)] = (transposed_gemm[((i_outer_inner * 8) + 2)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 23)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 7)]));
+      transposed_gemm[((i_outer_inner * 8) + 3)] = (transposed_gemm[((i_outer_inner * 8) + 3)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 31)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 7)]));
+      transposed_gemm[((i_outer_inner * 8) + 4)] = (transposed_gemm[((i_outer_inner * 8) + 4)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 39)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 7)]));
+      transposed_gemm[((i_outer_inner * 8) + 5)] = (transposed_gemm[((i_outer_inner * 8) + 5)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 47)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 7)]));
+      transposed_gemm[((i_outer_inner * 8) + 6)] = (transposed_gemm[((i_outer_inner * 8) + 6)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 55)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 7)]));
+      transposed_gemm[((i_outer_inner * 8) + 7)] = (transposed_gemm[((i_outer_inner * 8) + 7)] + (A_shared[((((((int)threadIdx.x) >> 4) * 128) + (i_outer_inner * 64)) + 63)] * B_shared[(((((int)threadIdx.x) & 15) * 8) + 7)]));
+    }
+  }
+  for (int i_inner = 0; i_inner < 16; ++i_inner) {
+    out[((((((((int)blockIdx.x) >> 6) * 32768) + ((((int)threadIdx.x) >> 4) * 16384)) + (i_inner * 1024)) + ((((int)blockIdx.x) & 63) * 16)) + (((int)threadIdx.x) & 15))] = (transposed_gemm[i_inner] + C[((((((((int)blockIdx.x) >> 6) * 32768) + ((((int)threadIdx.x) >> 4) * 16384)) + (i_inner * 1024)) + ((((int)blockIdx.x) & 63) * 16)) + (((int)threadIdx.x) & 15))]);
+  }
+}
+
+
